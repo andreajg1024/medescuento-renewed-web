@@ -52,6 +52,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				/* MEDescuento Custom Colors */
+				'hero-bg': 'hsl(var(--hero-bg))',
+				'card-promotion': 'hsl(var(--card-promotion))',
+				'card-terapeuta': 'hsl(var(--card-terapeuta))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +66,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-accent': 'var(--gradient-accent)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
