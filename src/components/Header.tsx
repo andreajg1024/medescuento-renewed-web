@@ -61,10 +61,20 @@ const Header = () => {
             
             {/* Social Icons */}
             <div className="flex space-x-2">
-              <a href="#" className="bg-blue-600 text-white p-2 rounded hover:opacity-80 transition-opacity">
+              <a 
+                href="https://www.facebook.com/medescuentoSas?locale=es_LA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-600 text-white p-2 rounded hover:opacity-80 transition-opacity"
+              >
                 <Facebook className="w-4 h-4" />
               </a>
-              <a href="#" className="bg-pink-500 text-white p-2 rounded hover:opacity-80 transition-opacity">
+              <a 
+                href="https://www.instagram.com/medescuentosas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-pink-500 text-white p-2 rounded hover:opacity-80 transition-opacity"
+              >
                 <Instagram className="w-4 h-4" />
               </a>
             </div>
