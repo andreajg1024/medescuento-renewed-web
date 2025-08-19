@@ -43,18 +43,6 @@ const InfoSection = () => {
             </div>
           </Card>
         </div>
-
-        {/* Blog Section */}
-        <div className="text-center">
-          <Button 
-            className="bg-secondary hover:bg-secondary/90 text-white px-12 py-4 rounded-full text-xl font-semibold mb-6"
-          >
-            Nuestro Blog
-          </Button>
-          <p className="text-lg text-muted-foreground">
-            Mira todo lo nuevo y las proyecciones que tiene MEDescuento
-          </p>
-        </div>
       </div>
     </section>
   );

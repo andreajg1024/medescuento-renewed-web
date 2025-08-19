@@ -1,41 +1,42 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { 
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 import { MapPin } from "lucide-react";
-import Map from "./Map";
-import planetImage from "@/assets/planet-medescuento.jpg";
-import slide1 from "@/assets/slide-1-healthcare.jpg";
-import slide2 from "@/assets/slide-2-promotions.jpg";
-import slide3 from "@/assets/slide-3-coomeva.jpg";
-import slide4 from "@/assets/slide-4-therapy.jpg";
+import { useState, useEffect } from "react";
+import planetImage from "@/assets/imagenhero.jpg";
 
 const HeroSection = () => {
-  const slides = [slide1, slide2, slide3, slide4];
+  // Array con los nombres de las imágenes
+  const slides = [
+    "/src/assets/slider1.jpg",
+    "/src/assets/slider2.jpg", 
+    "/src/assets/slider3.jpg",
+    "/src/assets/slider4.jpg"
+  ];
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  // Carrusel automático
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+    }, 4000); // Cambia cada 4 segundos
+
+    return () => clearInterval(interval);
+  }, [slides.length]);
 
   return (
     <section className="bg-gradient-hero min-h-[60vh] py-16 relative overflow-hidden">
-      {/* Background Carousel */}
+      {/* Background Carousel Automático */}
       <div className="absolute inset-0 z-0">
-        <Carousel className="w-full h-full" opts={{ loop: true, align: "start" }}>
-          <CarouselContent className="h-full">
-            {slides.map((slide, index) => (
-              <CarouselItem key={index} className="h-full">
-                <div 
-                  className="w-full h-full bg-cover bg-center bg-no-repeat opacity-20"
-                  style={{ backgroundImage: `url(${slide})` }}
-                />
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10" />
-          <CarouselNext className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10" />
-        </Carousel>
+        {slides.map((slide, index) => (
+          <div 
+            key={index}
+            className={`absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
+              index === currentSlide ? 'opacity-60' : 'opacity-0'
+            }`}
+            style={{ backgroundImage: `url(${slide})` }}
+          />
+        ))}
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -67,7 +68,7 @@ const HeroSection = () => {
               </Card>
               
               <Card className="bg-card-promotion p-6 text-black text-center hover:scale-105 transition-transform">
-                <h3 className="text-xl font-bold mb-2">Coomeva</h3>
+                <h3 className="text-xl font-bold mb-2">Clientes Satisfechos</h3>
               </Card>
               
               <Card className="bg-card-terapeuta p-6 text-white text-center hover:scale-105 transition-transform">
@@ -84,7 +85,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right side - Location card with Map */}
+          {/* Right side - Location card with Google Maps */}
           <div className="lg:col-span-1">
             <Card className="bg-hero-bg/80 border-accent border-2 p-6 text-white">
               <div className="text-center mb-4">
@@ -94,19 +95,22 @@ const HeroSection = () => {
               
               {/* Map Container */}
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
-                <Map />
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.1942622415304!2d-75.65653328939742!3d4.559058242849977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5f16926682d%3A0xa603f0d7104df83f!2sMEDescuento!5e0!3m2!1ses!2sco!4v1755476797875!5m2!1ses!2sco"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="rounded-lg"
+                ></iframe>
               </div>
               
               <div className="text-center">
                 <p className="mb-6 opacity-90">
                   Búscanos en la sección Contacto
                 </p>
-                <Button 
-                  variant="outline" 
-                  className="border-white text-white hover:bg-white hover:text-hero-bg rounded-full px-6"
-                >
-                  Haz clic aquí
-                </Button>
               </div>
             </Card>
           </div>
