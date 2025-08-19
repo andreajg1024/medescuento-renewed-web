@@ -1,18 +1,18 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Mail, Clock, Phone, Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 import medescuentoLogo from "@/assets/medescuento-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "INICIO", href: "#" },
-    { label: "EMPRESA", href: "#empresa" },
-    { label: "SERVICIOS", href: "#servicios" },
-    { label: "BIENESTAR", href: "#bienestar" },
-    { label: "UBICACIÓN", href: "#ubicacion" },
-    { label: "CONTÁCTANOS", href: "#contactanos" },
+    { label: "INICIO", href: "/" },
+    { label: "EMPRESA", href: "/empresa" },
+    { label: "SERVICIOS", href: "/servicios" },
+    { label: "BIENESTAR", href: "/bienestar" },
+    { label: "CONTÁCTANOS", href: "/contactanos" },
   ];
 
   return (
@@ -97,12 +97,12 @@ const Header = () => {
           <ul className="flex flex-col md:flex-row md:justify-center md:space-x-12 py-3">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a
-                  href={item.href}
+                <Link
+                  to={item.href}
                   className="block py-2 px-4 text-gray-800 font-medium hover:bg-green-300 rounded transition-colors text-sm"
                 >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
