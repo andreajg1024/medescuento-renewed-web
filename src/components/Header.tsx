@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Mail, Clock, Phone, Menu, X } from "lucide-react";
-import medescuentoLogo from "@/assets/medescuento-logo.png";
+import medescuentoLogo from "@/assets/logomedescuento.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +34,7 @@ const Header = () => {
               <Mail className="w-6 h-6 text-blue-600 bg-white p-1 rounded" />
               <div>
                 <p className="text-gray-700 text-xs">Correo electrónico</p>
-                <p className="text-gray-900 font-medium">medescuentosag@gmail.com</p>
+                <p className="text-gray-900 font-medium">medescuentosas@gmail.com</p>
               </div>
             </div>
             
@@ -54,7 +54,7 @@ const Header = () => {
               <Phone className="w-6 h-6 text-blue-600 bg-white p-1 rounded" />
               <div>
                 <p className="text-gray-700 text-xs">Contáctanos</p>
-                <p className="text-gray-900 font-medium">+57 3252540</p>
+                <p className="text-gray-900 font-medium">+57 3225426408</p>
                 <p className="text-gray-900 font-medium">+57 3002870540</p>
               </div>
             </div>
