@@ -14,7 +14,7 @@ const Servicios = () => {
     {
       icon: Heart,
       title: "Plan Complementario de Salud", 
-      description: "Un plan integral que complementa tu sistema de salud actual con descuentos significativos en consultas especializadas, exámenes médicos y procedimientos. Accede a una amplia red de profesionales de la salud con tarifas preferenciales, agendamiento ágil y atención de calidad para ti, tu familia y tus mascotas.",
+      description: "MEDescuento SAS, somos una empresa QUINDIANA que llega con su PLAN COMPLEMENTARIO DE SALUD, a mitigar el impacto que se genera en las personas, por el déficit de la prestación del servicio del sector de salud Colombiano. Ofreciendo la venta de una membrecía por (1) un año, para (8) integrantes: (1) TITULAR y (7) BENEFICIARIOS más, incluido su MASCOTA donde obtendrán los siguientes beneficios.",
       features: ["Descuentos en consultas especializadas", "Red amplia de profesionales", "Atención para mascotas", "Agendamiento rápido"]
     },
     {

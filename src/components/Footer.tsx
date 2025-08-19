@@ -1,5 +1,5 @@
 import { Facebook, Instagram } from "lucide-react";
-import medescuentoLogo from "@/assets/medescuento-logo.png";
+import medescuentoLogo from "@/assets/logomedescuento.png";
 
 const Footer = () => {
   const socialLinks = [
