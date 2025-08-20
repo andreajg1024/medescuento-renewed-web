@@ -20,20 +20,20 @@ const Servicios = () => {
     {
       icon: GraduationCap,
       title: "Capacitación con Énfasis en Coaching",
-      description: "Programas de capacitación empresarial diseñados para potenciar el talento humano y el liderazgo organizacional. Nuestros expertos en coaching ofrecen herramientas prácticas para el desarrollo personal y profesional, mejorando la productividad y el clima laboral en tu empresa.",
-      features: ["Desarrollo de liderazgo", "Coaching personalizado", "Programas empresariales", "Herramientas prácticas"]
+      description: "Por normatividad y por los requisitos para la de implementación del sistema de seguridad en las empresas, es necesario dictar charlas, capacitaciones o talleres enfocados al crecimiento personal y al empoderamiento requerido para el cumplimiento de metas y proyectos empresariales. Nuestras capacitaciones son innovadoras y exclusivas de acuerdo a la necesidad de la empresa o el mercado, diferenciándose de las tradicionales por su ambientación, dinamismo como son presentadas, motivando a los participantes con premios durante toda la charla por su participación. LA CAPACITACION INCLUYE:",
+      features: ["El (70%) es práctico y el (30%) teórico", "Son dictadas con énfasis en coaching", "Se realiza una introducción de la empresa que contrata", "Personalizadas de acuerdo a la proyección o necesidad de la empresa", "Papelería (formatos didácticos)", "Duración (45) minutos de acuerdo a la necesidad de la empresa."]
     },
     {
       icon: Activity,
       title: "Pausas Activas Físicas y Mentales",
-      description: "Implementamos programas de bienestar laboral con pausas activas que incluyen ejercicios físicos, técnicas de relajación y actividades mentales. Ayudamos a reducir el estrés, prevenir lesiones ocupacionales y mejorar la productividad y satisfacción de los colaboradores.",
+      description: "PAUSAS ACTIVAS FISICAS: se realizan atraves de actividades físicas, didácticas y deportivas, motivando ese niño que hay en mí. PAUSAS ACTIVAS MENTALES: se realizan atraves de canciones, imágenes y formatos escritos, que exigen un nivel de concentración y del manejo del estrés al empleado, logrando una sonrisa y un estado de alegría en su día laboral",
       features: ["Ejercicios físicos", "Técnicas de relajación", "Prevención de lesiones", "Mejora del clima laboral"]
     },
     {
       icon: Building,
       title: "Consultoría Empresarial",
-      description: "Ofrecemos servicios de consultoría especializados para optimizar los procesos organizacionales y el bienestar corporativo. Analizamos las necesidades específicas de cada empresa para implementar soluciones personalizadas que fortalezcan la responsabilidad social y la gestión del talento humano.",
-      features: ["Análisis organizacional", "Soluciones personalizadas", "Responsabilidad social", "Gestión del talento"]
+      description: "Teniendo en cuenta el mundo tan competitivo en el que nos encontramos, donde las empresas deben de innovar para poder posicionarse en el mercado, queremos proporcionarle consultorías que le permitan lograr el cumplimiento de objetivos y metas, para ellos queremos brindarles:",
+      features: ["Descuento hasta el (40%) en la consultoria", "Valoración gratuita", "Descuento hasta un (40%) en diagnóstico, recomendaciones y plan de trabajo a seguir", "Descuento hasta un (40%) en implementación de estrategias de mejora o avance"]
     }
   ];
 

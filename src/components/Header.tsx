@@ -54,8 +54,8 @@ const Header = () => {
               <Phone className="w-6 h-6 text-blue-600 bg-white p-1 rounded" />
               <div>
                 <p className="text-gray-700 text-xs">Contáctanos</p>
-                <p className="text-gray-900 font-medium">+57 3225426408</p>
-                <p className="text-gray-900 font-medium">+57 3002870540</p>
+                <p className="text-gray-900 font-medium">+57 322 5426408</p>
+                <p className="text-gray-900 font-medium">+57 300 2870540</p>
               </div>
             </div>
             

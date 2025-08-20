@@ -191,11 +191,11 @@ const Contactanos = () => {
                 <CardContent className="space-y-3">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                    <span className="text-lg">+57 325 2540</span>
+                    <span className="text-lg">+57 322 5426408</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                    <span className="text-lg">+57 300 287 0540</span>
+                    <span className="text-lg">+57 300 2870540</span>
                   </div>
                 </CardContent>
               </Card>
@@ -212,7 +212,7 @@ const Contactanos = () => {
                     Nos encontramos ubicados en el departamento del Quindío, Colombia.
                   </p>
                   <p className="text-sm text-gray-600">
-                    Contacta con nosotros para coordinar una reunión presencial o virtual.
+                    Calle 22 Norte # 11-80 Barrio Coinca Armenia, Quindio.
                   </p>
                 </CardContent>
               </Card>
