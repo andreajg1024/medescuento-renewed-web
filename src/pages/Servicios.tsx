@@ -15,7 +15,30 @@ const Servicios = () => {
       icon: Heart,
       title: "Plan Complementario de Salud", 
       description: "MEDescuento SAS, somos una empresa QUINDIANA que llega con su PLAN COMPLEMENTARIO DE SALUD, a mitigar el impacto que se genera en las personas, por el déficit de la prestación del servicio del sector de salud Colombiano. Ofreciendo la venta de una membrecía por (1) un año, para (8) integrantes: (1) TITULAR y (7) BENEFICIARIOS más, incluido su MASCOTA donde obtendrán los siguientes beneficios.",
-      features: ["Descuentos en consultas especializadas", "Red amplia de profesionales", "Atención para mascotas", "Agendamiento rápido"]
+      features: [
+    "Descuentos hasta un (70%) en citas con profesionales ESPECIALISTAS de todas las áreas, en el departamento del QUINDÍO y PEREIRA, con alianzas estratégicas en los departamentos de ANTIOQUIA, VALLE DEL CAUCA, MONTERIA, BARRANQUILLA, CAUCASIA, QUIBDO, ISTMINA, POPAYAN Y PASTO.",
+    "Descuentos en atención VIP EN LABORATORIOS Y A DOMICILIO, igualmente EXÁMENES ESPECIALIZADOS. (Resonancias, ecografías y radiografías)",
+    "MÉDICO GENERAL en consultorio, empresarial, a domicilio y virtual.",
+    "SALUD MENTAL (Psicólogo, psiquiatra, coaching y terapeutas)",
+    "Descuento en OPTOMETRÍA para usted y sus beneficiarios",
+    "Descuento del (10%) en LENTES y hasta el (50%) en MONTURAS",
+    "Valoración sin costo con ODONTOLOGÍA, descuento hasta (30%) en tratamientos.",
+    "Descuento con ODONTOLOGÍA PEDIATRICA O PARA PERSONAS NERVIOSAS",
+    "CURACIONES, INYECTOLOGIA, TERAPIAS FISICAS Y RESPIRATORIAS a domicilio.",
+    "SPA, CENTRO DE ESTETICA, MASAJES RELAJANTES Y TERAPEUTICOS.",
+    "MEDICINA ALTERNATIVA (medicina cuántica, carta astral y terapéuticas, otras).",
+    "CONSULTA VETERINARIA, en consultorio, a domicilio, virtual y ESTETICA.",
+    "Campañas empresariales de PROMOCIÓN Y PREVENCIÓN EN SALUD, BIENESTAR, JURÍDICA, COACHING Y CONSULTAS ADMINISTRATIVAS.",
+    "Campañas saludables (paquetes especiales en ginecología y odontología).",
+    "Asesoría jurídica para procesos y demandas EN SALUD Y PENSIÓN U OTRAS.",
+    "CAPACITACIÓN EMPRESARIAL y de CRECIMIENTO PERSONAL con énfasis en COACHING (ENFOCADAS (70%) PRÁCTICO y (30%) TEORICO).",
+    "PAUSAS ACTIVAS (FISICAS Y MENTALES).",
+    "Proceso de selección de personal con examen de ingreso y laboratorio.",
+    "Programa PROYECTO DE VIDA para JOVENES con Problemas de drogadicción, alcoholismo, suicidio, déficit de atención entre otro (Diseño de firma).",
+    "Programa ADULTOS VIDA ACTIVA, yoga, terapias, salud holística y mente activa.",
+    "Descuento especial en paquetes de YOGA, AROMATERAPIA, RUMBATERAPIA (hora loca) y recreacionistas.",
+    "Organización y logística para eventos EMPRESARIALES Y FAMILIARES."
+  ]
     },
     {
       icon: GraduationCap,
@@ -27,7 +50,7 @@ const Servicios = () => {
       icon: Activity,
       title: "Pausas Activas Físicas y Mentales",
       description: "PAUSAS ACTIVAS FISICAS: se realizan atraves de actividades físicas, didácticas y deportivas, motivando ese niño que hay en mí. PAUSAS ACTIVAS MENTALES: se realizan atraves de canciones, imágenes y formatos escritos, que exigen un nivel de concentración y del manejo del estrés al empleado, logrando una sonrisa y un estado de alegría en su día laboral",
-      features: ["Ejercicios físicos", "Técnicas de relajación", "Prevención de lesiones", "Mejora del clima laboral"]
+      features: ["Innovadoras y estratégicas", "Diseñadas de acuerdo a la actividad económica de la empresa, área de trabajo o profesión", "Duración de (10 a 15) minutos o de acuerdo a la necesidad de la empresa", "Dictadas con énfasis en coaching."]
     },
     {
       icon: Building,

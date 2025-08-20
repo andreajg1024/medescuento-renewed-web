@@ -8,31 +8,31 @@ const Bienestar = () => {
     {
       icon: Flower2,
       title: "Yoga",
-      description: "Sesiones de yoga diseñadas para mejorar la flexibilidad, fuerza y bienestar mental. Nuestras clases incluyen diferentes estilos desde Hatha Yoga para principiantes hasta Vinyasa Flow para niveles más avanzados. Cada sesión se enfoca en la conexión mente-cuerpo, promoviendo la relajación y reduciendo el estrés laboral.",
+      description: "El yoga es una práctica milenaria que combina posturas físicas, técnicas de respiración y meditación para fortalecer el cuerpo, relajar la mente y alcanzar el bienestar integral. Es ideal para reducir el estrés, mejorar la flexibilidad y encontrar equilibrio entre cuerpo y espíritu.",
       benefits: ["Reducción del estrés", "Mejora de la flexibilidad", "Fortalecimiento muscular", "Equilibrio mental"]
     },
     {
       icon: Sparkles,
       title: "Aromaterapia",
-      description: "Experiencias sensoriales únicas utilizando aceites esenciales naturales para promover la relajación y el bienestar. Nuestras sesiones de aromaterapia combinan técnicas de respiración, meditación guiada y la aplicación terapéutica de fragancias naturales para crear un ambiente de paz y tranquilidad.",
+      description: "La aromaterapia utiliza aceites esenciales naturales para estimular los sentidos, generar relajación y mejorar la salud física y emocional. A través de aromas, masajes o difusores, esta terapia holística ayuda a disminuir la ansiedad, el insomnio y la tensión diaria.",
       benefits: ["Relajación profunda", "Mejora del estado de ánimo", "Reducción de la ansiedad", "Estimulación sensorial"]
     },
     {
       icon: Music,
       title: "Rumbaterapia",
-      description: "Actividad física divertida que combina baile y ejercicio cardiovascular con ritmos latinos y música energizante. Nuestras sesiones de rumbaterapia son perfectas para liberar tensiones, quemar calorías y disfrutar en grupo, creando un ambiente alegre y motivador para todos los participantes.",
+      description: "La rumbaterapia es una divertida actividad física que combina baile y ejercicio aeróbico al ritmo de la música latina. Más que un entrenamiento, es una fiesta llena de energía que ayuda a quemar calorías, mejorar la coordinación y liberar el estrés con alegría.",
       benefits: ["Ejercicio cardiovascular", "Diversión grupal", "Liberación de tensiones", "Coordinación y ritmo"]
     },
     {
       icon: PartyPopper,
       title: "Hora Loca",
-      description: "Momentos de esparcimiento y diversión grupal diseñados para fortalecer los vínculos entre colaboradores y crear un ambiente laboral más ameno. Incluye juegos dinámicos, actividades recreativas y momentos de celebración que fomentan la integración y el compañerismo en el equipo de trabajo.",
+      description: "La hora loca es una animación llena de música, baile y color que convierte cualquier celebración en un momento inolvidable. Con disfraces, coreografías y mucha diversión, es la mejor forma de romper la rutina y encender la alegría en eventos sociales y corporativos.",
       benefits: ["Fortalecimiento de vínculos", "Ambiente laboral positivo", "Diversión grupal", "Integración del equipo"]
     },
     {
       icon: Zap,
       title: "Vida Activa",
-      description: "Programa integral que promueve hábitos saludables a través de actividades físicas variadas, educación nutricional y consejos de bienestar. Incluye caminatas grupales, ejercicios funcionales, charlas sobre alimentación saludable y estrategias para mantener un estilo de vida activo y equilibrado.",
+      description: "Llevar una vida activa significa incorporar movimiento y hábitos saludables en la rutina diaria para mantener el cuerpo fuerte y la mente en equilibrio. Con actividades como caminar, bailar, ejercitarse o practicar deportes, se promueve la energía, la salud y la felicidad a largo plazo.",
       benefits: ["Hábitos saludables", "Actividad física regular", "Educación nutricional", "Estilo de vida equilibrado"]
     }
   ];
