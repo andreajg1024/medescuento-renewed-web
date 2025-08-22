@@ -76,27 +76,44 @@ const Servicios = () => {
           {/* Services Grid */}
           <div className="grid gap-8">
             {services.map((service, index) => (
-              <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-                <CardHeader className="bg-green-50">
-                  <CardTitle className="flex items-center gap-3 text-2xl text-green-800">
-                    <service.icon className="w-8 h-8" />
-                    {service.title}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <p className="text-lg leading-relaxed mb-6 text-gray-700">
-                    {service.description}
-                  </p>
-                  <div className="grid md:grid-cols-2 gap-3">
-                    {service.features.map((feature, featureIndex) => (
-                      <div key={featureIndex} className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                        <span className="text-gray-700">{feature}</span>
-                      </div>
-                    ))}
+              <div key={index}>
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+                  <CardHeader className="bg-green-50">
+                    <CardTitle className="flex items-center gap-3 text-2xl text-green-800">
+                      <service.icon className="w-8 h-8" />
+                      {service.title}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="p-6">
+                    <p className="text-lg leading-relaxed mb-6 text-gray-700">
+                      {service.description}
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-3">
+                      {service.features.map((feature, featureIndex) => (
+                        <div key={featureIndex} className="flex items-center gap-2">
+                          <div className="w-2 h-2 bg-green-600 rounded-full"></div>
+                          <span className="text-gray-700">{feature}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+                
+                {/* Medical Guide Image after Plan Complementario de Salud */}
+                {index === 1 && (
+                  <div className="mt-8 mb-4">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="/lovable-uploads/d23402a6-40b7-4afe-b139-3528d9b5ee6f.png" 
+                          alt="Guía Médica - Más de 2.000 prestadores de servicios de salud"
+                          className="w-full h-auto object-cover"
+                        />
+                      </CardContent>
+                    </Card>
                   </div>
-                </CardContent>
-              </Card>
+                )}
+              </div>
             ))}
           </div>
 
