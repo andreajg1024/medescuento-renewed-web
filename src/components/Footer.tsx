@@ -40,10 +40,10 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2 text-sm opacity-80">
               <li><a href="#" className="hover:opacity-100 transition-opacity">Inicio</a></li>
-              <li><a href="#servicios" className="hover:opacity-100 transition-opacity">Servicios</a></li>
-              <li><a href="#blog" className="hover:opacity-100 transition-opacity">Blog</a></li>
-              <li><a href="#about" className="hover:opacity-100 transition-opacity">Sobre Nosotros</a></li>
-              <li><a href="#shop" className="hover:opacity-100 transition-opacity">Tienda</a></li>
+              <li><a href="Empresa" className="hover:opacity-100 transition-opacity">Empresa</a></li>
+              <li><a href="Servicios" className="hover:opacity-100 transition-opacity">Servicios</a></li>
+              <li><a href="Bienestar" className="hover:opacity-100 transition-opacity">Bienestar</a></li>
+              <li><a href="Contactanos" className="hover:opacity-100 transition-opacity">Contactanos</a></li>
             </ul>
           </div>
 
