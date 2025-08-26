@@ -7,13 +7,13 @@ const Servicios = () => {
   const services = [
     {
       icon: Shield,
-      title: "Plan Exequial",
+      title: "PLAN EXEQUIAL",
       description: "Brindamos tranquilidad a las familias con nuestro plan exequial completo. Incluye servicios funerarios de calidad, acompañamiento integral y gestión administrativa en momentos difíciles. Nuestro compromiso es ofrecer dignidad y respeto en los momentos más importantes, con cobertura amplia y atención personalizada las 24 horas.",
       features: ["Servicios funerarios completos", "Acompañamiento familiar", "Gestión administrativa", "Atención 24/7"]
     },
     {
       icon: Heart,
-      title: "Plan Complementario de Salud", 
+      title: "PLAN COMPLEMENTARIO DE SALUD", 
       description: "MEDescuento SAS, somos una empresa QUINDIANA que llega con su PLAN COMPLEMENTARIO DE SALUD, a mitigar el impacto que se genera en las personas, por el déficit de la prestación del servicio del sector de salud Colombiano. Ofreciendo la venta de una membrecía por (1) un año, para (8) integrantes: (1) TITULAR y (7) BENEFICIARIOS más, incluido su MASCOTA donde obtendrán los siguientes beneficios.",
       features: [
     "Descuentos hasta un (70%) en citas con profesionales ESPECIALISTAS de todas las áreas, en el departamento del QUINDÍO y PEREIRA, con alianzas estratégicas en los departamentos de ANTIOQUIA, VALLE DEL CAUCA, MONTERIA, BARRANQUILLA, CAUCASIA, QUIBDO, ISTMINA, POPAYAN Y PASTO.",
@@ -42,19 +42,19 @@ const Servicios = () => {
     },
     {
       icon: GraduationCap,
-      title: "Capacitación con Énfasis en Coaching",
+      title: "CAPACITACIÓN CON ENFASIS EN COACHING",
       description: "Por normatividad y por los requisitos para la de implementación del sistema de seguridad en las empresas, es necesario dictar charlas, capacitaciones o talleres enfocados al crecimiento personal y al empoderamiento requerido para el cumplimiento de metas y proyectos empresariales. Nuestras capacitaciones son innovadoras y exclusivas de acuerdo a la necesidad de la empresa o el mercado, diferenciándose de las tradicionales por su ambientación, dinamismo como son presentadas, motivando a los participantes con premios durante toda la charla por su participación. LA CAPACITACION INCLUYE:",
       features: ["El (70%) es práctico y el (30%) teórico", "Son dictadas con énfasis en coaching", "Se realiza una introducción de la empresa que contrata", "Personalizadas de acuerdo a la proyección o necesidad de la empresa", "Papelería (formatos didácticos)", "Duración (45) minutos de acuerdo a la necesidad de la empresa."]
     },
     {
       icon: Activity,
-      title: "Pausas Activas Físicas y Mentales",
+      title: "PAUSAS ACTIVAS (FISICAS Y MENTALES)",
       description: "PAUSAS ACTIVAS FISICAS: se realizan atraves de actividades físicas, didácticas y deportivas, motivando ese niño que hay en mí. PAUSAS ACTIVAS MENTALES: se realizan atraves de canciones, imágenes y formatos escritos, que exigen un nivel de concentración y del manejo del estrés al empleado, logrando una sonrisa y un estado de alegría en su día laboral",
       features: ["Innovadoras y estratégicas", "Diseñadas de acuerdo a la actividad económica de la empresa, área de trabajo o profesión", "Duración de (10 a 15) minutos o de acuerdo a la necesidad de la empresa", "Dictadas con énfasis en coaching."]
     },
     {
       icon: Building,
-      title: "Consultoría Empresarial",
+      title: "CONSULTORIAS EMPRESARIALES",
       description: "Teniendo en cuenta el mundo tan competitivo en el que nos encontramos, donde las empresas deben de innovar para poder posicionarse en el mercado, queremos proporcionarle consultorías que le permitan lograr el cumplimiento de objetivos y metas, para ellos queremos brindarles:",
       features: ["Descuento hasta el (40%) en la consultoria", "Valoración gratuita", "Descuento hasta un (40%) en diagnóstico, recomendaciones y plan de trabajo a seguir", "Descuento hasta un (40%) en implementación de estrategias de mejora o avance"]
     }
@@ -67,8 +67,8 @@ const Servicios = () => {
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Hero Section */}
           <div className="text-center space-y-4">
-            <h1 className="text-4xl md:text-5xl font-bold text-green-800">Nuestros Servicios</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold text-green-800">NUESTROS SERVICIOS</h1>
+            <p className="text-xl text-black-600 max-w-3xl mx-auto">
               Soluciones integrales en salud y bienestar para las personas y empresas
             </p>
           </div>
@@ -85,14 +85,14 @@ const Servicios = () => {
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="p-6">
-                    <p className="text-lg leading-relaxed mb-6 text-gray-700">
+                    <p className="text-lg leading-relaxed mb-6 font-bold text-black-700">
                       {service.description}
                     </p>
                     <div className="grid md:grid-cols-2 gap-3">
                       {service.features.map((feature, featureIndex) => (
                         <div key={featureIndex} className="flex items-center gap-2">
                           <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                          <span className="text-gray-700">{feature}</span>
+                          <span className="font-bold text-black-700">{feature}</span>
                         </div>
                       ))}
                     </div>

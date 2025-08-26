@@ -12,7 +12,7 @@ const Empresa = () => {
           {/* Hero Section */}
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-green-800">NUESTRA EMPRESA</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black-600 max-w-3xl mx-auto">
               12 años transformando el sistema de salud en el Quindío
             </p>
           </div>

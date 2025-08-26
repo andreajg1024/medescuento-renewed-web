@@ -7,31 +7,31 @@ const Bienestar = () => {
   const activities = [
     {
       icon: Flower2,
-      title: "Yoga",
+      title: "YOGA",
       description: "El yoga es una práctica milenaria que combina posturas físicas, técnicas de respiración y meditación para fortalecer el cuerpo, relajar la mente y alcanzar el bienestar integral. Es ideal para reducir el estrés, mejorar la flexibilidad y encontrar equilibrio entre cuerpo y espíritu.",
       benefits: ["Reducción del estrés", "Mejora de la flexibilidad", "Fortalecimiento muscular", "Equilibrio mental"]
     },
     {
       icon: Sparkles,
-      title: "Aromaterapia",
+      title: "AROMATERAPIA",
       description: "La aromaterapia utiliza aceites esenciales naturales para estimular los sentidos, generar relajación y mejorar la salud física y emocional. A través de aromas, masajes o difusores, esta terapia holística ayuda a disminuir la ansiedad, el insomnio y la tensión diaria.",
       benefits: ["Relajación profunda", "Mejora del estado de ánimo", "Reducción de la ansiedad", "Estimulación sensorial"]
     },
     {
       icon: Music,
-      title: "Rumbaterapia",
+      title: "RUMBATERAPIA",
       description: "La rumbaterapia es una divertida actividad física que combina baile y ejercicio aeróbico al ritmo de la música latina. Más que un entrenamiento, es una fiesta llena de energía que ayuda a quemar calorías, mejorar la coordinación y liberar el estrés con alegría.",
       benefits: ["Ejercicio cardiovascular", "Diversión grupal", "Liberación de tensiones", "Coordinación y ritmo"]
     },
     {
       icon: PartyPopper,
-      title: "Hora Loca",
+      title: "HORA LOCA",
       description: "La hora loca es una animación llena de música, baile y color que convierte cualquier celebración en un momento inolvidable. Con disfraces, coreografías y mucha diversión, es la mejor forma de romper la rutina y encender la alegría en eventos sociales y corporativos.",
       benefits: ["Fortalecimiento de vínculos", "Ambiente laboral positivo", "Diversión grupal", "Integración del equipo"]
     },
     {
       icon: Zap,
-      title: "Vida Activa",
+      title: "VIDA ACTIVA",
       description: "Llevar una vida activa significa incorporar movimiento y hábitos saludables en la rutina diaria para mantener el cuerpo fuerte y la mente en equilibrio. Con actividades como caminar, bailar, ejercitarse o practicar deportes, se promueve la energía, la salud y la felicidad a largo plazo.",
       benefits: ["Hábitos saludables", "Actividad física regular", "Educación nutricional", "Estilo de vida equilibrado"]
     }
@@ -44,8 +44,8 @@ const Bienestar = () => {
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Hero Section */}
           <div className="text-center space-y-4">
-            <h1 className="text-4xl md:text-5xl font-bold text-green-800">Bienestar Integral</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold text-green-800">BIENESTAR INTEGRAL</h1>
+            <p className="text-xl text-black-600 max-w-3xl mx-auto">
               Actividades diseñadas para el bienestar físico, mental y emocional de las personas y las empresas
             </p>
           </div>
@@ -54,22 +54,22 @@ const Bienestar = () => {
           <div className="grid gap-8">
             {activities.map((activity, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-                <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50">
-                  <CardTitle className="flex items-center gap-3 text-2xl text-green-800">
+                <CardHeader className="bg-[#43d9cb]">
+                  <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800">
                     <activity.icon className="w-8 h-8" />
                     {activity.title}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
-                  <p className="text-lg leading-relaxed mb-6 text-gray-700">
+                  <p className="text-lg leading-relaxed mb-6 font-bold text-black-700">
                     {activity.description}
                   </p>
                   <div className="grid md:grid-cols-2 gap-3">
-                    <h4 className="font-semibold text-green-800 mb-3 md:col-span-2">Beneficios:</h4>
+                    <h4 className="font-semibold font-bold text-green-800 mb-3 md:col-span-2">Beneficios:</h4>
                     {activity.benefits.map((benefit, benefitIndex) => (
                       <div key={benefitIndex} className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                        <span className="text-gray-700">{benefit}</span>
+                        <span className="font-bold text-black-700">{benefit}</span>
                       </div>
                     ))}
                   </div>
@@ -87,17 +87,17 @@ const Bienestar = () => {
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
                   <div className="text-4xl mb-3">🧠</div>
-                  <h4 className="font-semibold text-green-800 mb-2">Salud Mental</h4>
+                  <h4 className="font-semibold text-green-800 mb-2">SALUD MENTAL</h4>
                   <p className="text-gray-700">Reducción del estrés y mejora del estado de ánimo</p>
                 </div>
                 <div>
                   <div className="text-4xl mb-3">💪</div>
-                  <h4 className="font-semibold text-green-800 mb-2">Salud Física</h4>
+                  <h4 className="font-semibold text-green-800 mb-2">SALUD FÍSICA</h4>
                   <p className="text-gray-700">Fortalecimiento del cuerpo y prevención de enfermedades</p>
                 </div>
                 <div>
                   <div className="text-4xl mb-3">🤝</div>
-                  <h4 className="font-semibold text-green-800 mb-2">Integración Social</h4>
+                  <h4 className="font-semibold text-green-800 mb-2">INTEGRACIÓN SOCIAL</h4>
                   <p className="text-gray-700">Fortalecimiento de vínculos y trabajo en equipo</p>
                 </div>
               </div>
