@@ -33,8 +33,8 @@ const Header = () => {
             <div className="flex items-center space-x-2">
               <Mail className="w-6 h-6 text-blue-600 bg-white p-1 rounded" />
               <div>
-                <p className="text-gray-700 text-xs">Correo electrónico</p>
-                <p className="text-gray-900 font-medium">medescuentosas@gmail.com</p>
+                <p className="text-blue-900 font-medium ">Correo electrónico</p>
+                <p className="text-blue-900 font-medium">medescuentosas@gmail.com</p>
               </div>
             </div>
             
@@ -42,10 +42,10 @@ const Header = () => {
             <div className="flex items-center space-x-2">
               <Clock className="w-6 h-6 text-blue-600 bg-white p-1 rounded" />
               <div>
-                <p className="text-gray-700 text-xs">Horario de atención</p>
-                <p className="text-gray-900 font-medium">Lunes a Viernes</p>
-                <p className="text-gray-900 text-xs">8:00 AM - 11:30 AM</p>
-                <p className="text-gray-900 text-xs">DE 2:30 PM - 4:15 PM</p>
+                <p className="text-blue-900 font-medium">Horario de atención</p>
+                <p className="text-blue-900 font-medium">Lunes a Viernes</p>
+                <p className="text-blue-900 font-medium">8:00 AM - 11:30 AM</p>
+                <p className="text-blue-900 font-medium">DE 2:30 PM - 4:15 PM</p>
               </div>
             </div>
             
@@ -53,9 +53,9 @@ const Header = () => {
             <div className="flex items-center space-x-2">
               <Phone className="w-6 h-6 text-blue-600 bg-white p-1 rounded" />
               <div>
-                <p className="text-gray-700 text-xs">Contáctanos</p>
-                <p className="text-gray-900 font-medium">+57 322 5426408</p>
-                <p className="text-gray-900 font-medium">+57 300 2870540</p>
+                <p className="text-blue-900 font-medium">Contáctanos</p>
+                <p className="text-blue-900 font-medium">+57 322 5426408</p>
+                <p className="text-blue-900 font-medium">+57 300 2870540</p>
               </div>
             </div>
             
@@ -92,7 +92,7 @@ const Header = () => {
       </div>
 
       {/* Navigation */}
-      <nav className={`bg-green-200 ${isMenuOpen ? 'block' : 'hidden md:block'}`}>
+      <nav className={`bg-[#43d9cb] ${isMenuOpen ? 'block' : 'hidden md:block'}`}>
         <div className="container mx-auto px-4">
           <ul className="flex flex-col md:flex-row md:justify-center md:space-x-12 py-3">
             {navItems.map((item, index) => (

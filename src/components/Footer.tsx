@@ -8,7 +8,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-hero-bg text-white py-12">
+    <footer className="bg-[#43d9cb] text-black py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo and Description */}
@@ -38,7 +38,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
-            <ul className="space-y-2 text-sm opacity-80">
+            <ul className="space-y-2 text-black-900 opacity-80">
               <li><a href="#" className="hover:opacity-100 transition-opacity">Inicio</a></li>
               <li><a href="Empresa" className="hover:opacity-100 transition-opacity">Empresa</a></li>
               <li><a href="Servicios" className="hover:opacity-100 transition-opacity">Servicios</a></li>
@@ -49,8 +49,8 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contacto</h3>
-            <div className="text-sm opacity-80 space-y-2">
+            <h3 className="text-black-900 font-semibold mb-4">Contacto</h3>
+            <div className="text-black-900 opacity-80 space-y-2">
               <p>Email: medescuentosas@gmail.com</p>
               <p>Teléfono: +57 3225426408</p>
               <p>Horario: Lun - Vie 8:00 AM - 4:15 PM</p>

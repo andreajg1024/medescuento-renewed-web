@@ -46,7 +46,7 @@ const Bienestar = () => {
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-green-800">Bienestar Integral</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Actividades diseñadas para el bienestar físico, mental y emocional
+              Actividades diseñadas para el bienestar físico, mental y emocional de las personas y las empresas
             </p>
           </div>
 

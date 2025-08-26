@@ -69,7 +69,7 @@ const Servicios = () => {
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-green-800">Nuestros Servicios</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Soluciones integrales para el bienestar de personas y empresas
+              Soluciones integrales en salud y bienestar para las personas y empresas
             </p>
           </div>
 
