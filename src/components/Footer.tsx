@@ -16,7 +16,7 @@ const Footer = () => {
             <img 
               src={medescuentoLogo} 
               alt="MEDescuento Logo" 
-              className="h-16 w-auto mb-4 filter brightness-0 invert"
+              className="h-16 w-auto mb-4"
             />
             <p className="font-bold text-black-900 opacity-80 mb-6 max-w-md">
               Un mundo de privilegios a su alcance. Brindamos servicios de salud 
