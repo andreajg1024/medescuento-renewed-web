@@ -99,7 +99,7 @@ const Header = () => {
               <li key={index}>
                 <Link
                   to={item.href}
-                  className="block py-2 px-4 text-gray-800 font-medium hover:bg-green-300 rounded transition-colors text-sm"
+                  className="block py-2 px-4 text-black-800 font-medium hover:bg-green-300 rounded transition-colors text-sm"
                 >
                   {item.label}
                 </Link>

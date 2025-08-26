@@ -18,7 +18,7 @@ const Footer = () => {
               alt="MEDescuento Logo" 
               className="h-16 w-auto mb-4 filter brightness-0 invert"
             />
-            <p className="text-sm opacity-80 mb-6 max-w-md">
+            <p className="font-bold text-black-900 opacity-80 mb-6 max-w-md">
               Un mundo de privilegios a su alcance. Brindamos servicios de salud 
               con descuentos especiales para tu empresa y familia.
             </p>
@@ -37,20 +37,20 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
-            <ul className="space-y-2 text-black-900 opacity-80">
-              <li><a href="#" className="hover:opacity-100 transition-opacity">Inicio</a></li>
-              <li><a href="Empresa" className="hover:opacity-100 transition-opacity">Empresa</a></li>
-              <li><a href="Servicios" className="hover:opacity-100 transition-opacity">Servicios</a></li>
-              <li><a href="Bienestar" className="hover:opacity-100 transition-opacity">Bienestar</a></li>
-              <li><a href="Contactanos" className="hover:opacity-100 transition-opacity">Contactanos</a></li>
+            <h3 className="text-lg font-semibold mb-4">ENLACES RÁPIDOS</h3>
+            <ul className="space-y-2 font-bold text-black-900 opacity-80">
+              <li><a href="#" className="hover:opacity-100 transition-opacity">INICIO</a></li>
+              <li><a href="Empresa" className="hover:opacity-100 transition-opacity">EMPRESA</a></li>
+              <li><a href="Servicios" className="hover:opacity-100 transition-opacity">SERVICIOS</a></li>
+              <li><a href="Bienestar" className="hover:opacity-100 transition-opacity">BIENESTAR</a></li>
+              <li><a href="Contactanos" className="hover:opacity-100 transition-opacity">CONTÁCTANOS</a></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-black-900 font-semibold mb-4">Contacto</h3>
-            <div className="text-black-900 opacity-80 space-y-2">
+            <h3 className="text-black-900 font-semibold mb-4">CONTACTO</h3>
+            <div className="font-bold text-black-900 opacity-80 space-y-2">
               <p>Email: medescuentosas@gmail.com</p>
               <p>Teléfono: +57 3225426408</p>
               <p>Horario: Lun - Vie 8:00 AM - 4:15 PM</p>

@@ -78,8 +78,8 @@ const Servicios = () => {
             {services.map((service, index) => (
               <div key={index}>
                 <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-                  <CardHeader className="bg-green-50">
-                    <CardTitle className="flex items-center gap-3 text-2xl text-green-800">
+                  <CardHeader className="bg-[#43d9cb]">
+                    <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800">
                       <service.icon className="w-8 h-8" />
                       {service.title}
                     </CardTitle>

@@ -11,7 +11,7 @@ const Empresa = () => {
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Hero Section */}
           <div className="text-center space-y-4">
-            <h1 className="text-4xl md:text-5xl font-bold text-green-800">Nuestra Empresa</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-green-800">NUESTRA EMPRESA</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               12 años transformando el sistema de salud en el Quindío
             </p>
@@ -20,12 +20,12 @@ const Empresa = () => {
           {/* Descripción */}
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-2xl text-green-800">
+              <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800">
                 <Building2 className="w-8 h-8" />
-                Descripción
+                DESCRIPCIÓN
               </CardTitle>
             </CardHeader>
-            <CardContent className="text-lg leading-relaxed">
+            <CardContent className="font-bold text-lg leading-relaxed">
               <p>
                 MEDescuento S.A.S. es una empresa quindiana que nació hace doce (12) años a partir de la iniciativa de un estudiante universitario que identificó un déficit significativo en el sistema de salud colombiano. Su propósito fue mejorar esta situación mediante alianzas con profesionales particulares de la salud, buscando ahorrar tiempo y dinero a personas y empresas, brindando bienestar integral a usuarios, sus familias y mascotas.
               </p>
@@ -39,13 +39,13 @@ const Empresa = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl text-green-800">
+                <CardTitle className="flex items-center gap-3 text-xl font-bold text-green-800">
                   <Target className="w-6 h-6" />
-                  Misión
+                  MISIÓN
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg leading-relaxed">
+                <p className="font-bold text-lg leading-relaxed">
                   Brindar a las personas y organizaciones un plan complementario de salud con privilegios y descuentos: médicos y exequiales, al igual que capacitaciones y charlas empresariales que fortalezcan el bienestar y la responsabilidad social.
                 </p>
               </CardContent>
@@ -53,13 +53,13 @@ const Empresa = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl text-green-800">
+                <CardTitle className="flex items-center gap-3 text-xl font-bold text-green-800">
                   <Eye className="w-6 h-6" />
-                  Visión
+                  VISIÓN
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg leading-relaxed">
+                <p className="font-bold text-lg leading-relaxed">
                   En el 2030 seremos en el departamento del Quindío la empresa líder en marketing de planes complementarios de salud y exequiales con proyección nacional e internacional, destacada gestión y alto desarrollo tecnológico.
                 </p>
               </CardContent>
@@ -70,26 +70,26 @@ const Empresa = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl text-green-800">
+                <CardTitle className="flex items-center gap-3 text-xl font-bold text-green-800">
                   <Lightbulb className="w-6 h-6" />
-                  Principios
+                  PRINCIPIOS
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-lg">
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Transparencia
                   </li>
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Cumplimiento
                   </li>
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Puntualidad
                   </li>
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Trabajo en equipo
                   </li>
@@ -99,34 +99,34 @@ const Empresa = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl text-green-800">
+                <CardTitle className="font-bold flex items-center gap-3 text-xl font-bold text-green-800">
                   <Heart className="w-6 h-6" />
-                  Valores Corporativos
+                  VALORES CORPORATIVOS
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-lg">
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Vocación por el servicio
                   </li>
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Confianza
                   </li>
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Constancia
                   </li>
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Honestidad
                   </li>
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Credibilidad
                   </li>
-                  <li className="flex items-center gap-2">
+                  <li className="font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                     Eficacia
                   </li>
@@ -136,16 +136,16 @@ const Empresa = () => {
           </div>
 
           {/* Promesa de Valor */}
-          <Card className="bg-green-50">
+          <Card className="bg-[#43d9cb]">
             <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-2xl text-green-800 justify-center">
+              <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800 justify-center">
                 <Handshake className="w-8 h-8" />
-                Promesa de Valor
+                PROMESA DE VALOR
               </CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-2xl font-semibold text-green-700">
-                "Aportando a un mundo saludable"
+              <p className="text-2xl font-semibold text-black-900">
+                "APORTANDO A UN MUNDO SALUDABLE"
               </p>
             </CardContent>
           </Card>
