@@ -8,32 +8,32 @@ const Bienestar = () => {
     {
       icon: Flower2,
       title: "YOGA",
-      description: "El yoga es una práctica milenaria que combina posturas físicas, técnicas de respiración y meditación para fortalecer el cuerpo, relajar la mente y alcanzar el bienestar integral. Es ideal para reducir el estrés, mejorar la flexibilidad y encontrar equilibrio entre cuerpo y espíritu.",
-      benefits: ["Reducción del estrés", "Mejora de la flexibilidad", "Fortalecimiento muscular", "Equilibrio mental"]
+      description: "Para MEDescuento la actividad del yoga se realiza de manera terapeutica donde posturas del cuerpo, la respiración y la meditación, son fundamentales para mantener el equilibrio, relajar la mente y alcanzar el bienestar integral. Es ideal para reducir el estrés, mejorar la flexibilidad y encontrar armonía entre cuerpo y espíritu.",
+      benefits: ["Reducción del estrés", "Mejora de la flexibilidad", "Fortalecimiento muscular", "Equilibrio y salud mental", "Disposición a los sonidos", "Relajación mental y física"]
     },
     {
       icon: Sparkles,
       title: "AROMATERAPIA",
-      description: "La aromaterapia utiliza aceites esenciales naturales para estimular los sentidos, generar relajación y mejorar la salud física y emocional. A través de aromas, masajes o difusores, esta terapia holística ayuda a disminuir la ansiedad, el insomnio y la tensión diaria.",
-      benefits: ["Relajación profunda", "Mejora del estado de ánimo", "Reducción de la ansiedad", "Estimulación sensorial"]
+      description: "La aromaterapia es aplicada en la empresa MEDescuento, mediante variedades de aceites y esencias naturales que permiten estimular y sensibilizar los sentidos, generando relajación y mejora de la salud física y emocional. A través de aromas, masajes o difusores, esta terapia holística ayuda a disminuir.",
+      benefits: ["La ansiedad", "El insomnio", " El enojo", "La tensión diaria"]
     },
     {
       icon: Music,
       title: "RUMBATERAPIA",
-      description: "La rumbaterapia es una divertida actividad física que combina baile y ejercicio aeróbico al ritmo de la música latina. Más que un entrenamiento, es una fiesta llena de energía que ayuda a quemar calorías, mejorar la coordinación y liberar el estrés con alegría.",
-      benefits: ["Ejercicio cardiovascular", "Diversión grupal", "Liberación de tensiones", "Coordinación y ritmo"]
+      description: "Con MEDescuento con rumbaterapia te relajas y te diviertes combinando baile, ejercicio aeróbico y canto al ritmo de la música. Más que un entrenamiento físico, es una fiesta llena de energía que ayuda a quemar calorías, mejorar la coordinación y liberar el estrés con alegría.",
+      benefits: ["Ejercicio cardiovascular controlado", "Entretenimiento grupal", "Liberación de tensiones y energías negativas", "Coordinación física"]
     },
     {
       icon: PartyPopper,
       title: "HORA LOCA",
-      description: "La hora loca es una animación llena de música, baile y color que convierte cualquier celebración en un momento inolvidable. Con disfraces, coreografías y mucha diversión, es la mejor forma de romper la rutina y encender la alegría en eventos sociales y corporativos.",
-      benefits: ["Fortalecimiento de vínculos", "Ambiente laboral positivo", "Diversión grupal", "Integración del equipo"]
+      description: "La hora loca es una actividad divertida que se realiza normalmente después de media-noche, llena de música, baile, color y esencias, que convierte cualquier fiesta en una celebración experiencial. Con disfraces, coreografías, luces, DJ, logística y mucha diversión, es la mejor forma de romper la rutina y encender la alegría en eventos sociales y corporativos.",
+      benefits: ["Armonía grupal", "Libre expresión entre compañeros o amigos", "Diversión grupal personalizada", "Integración del equipo"]
     },
     {
       icon: Zap,
       title: "VIDA ACTIVA",
-      description: "Llevar una vida activa significa incorporar movimiento y hábitos saludables en la rutina diaria para mantener el cuerpo fuerte y la mente en equilibrio. Con actividades como caminar, bailar, ejercitarse o practicar deportes, se promueve la energía, la salud y la felicidad a largo plazo.",
-      benefits: ["Hábitos saludables", "Actividad física regular", "Educación nutricional", "Estilo de vida equilibrado"]
+      description: "Vida Activa es un programa pensando en la persona adulta donde se equilibra cuerpo, mete y espiritu, mejorando su flexibilidad, reduciendo el estrés, aprendiendo algo nuevo y socializando, INCLUYE: ",
+      benefits: ["Hábitos Cuerpo activo (Yoga y Chinkun)", "Salud Holistica (Aprendiendo herramientas de sanación)", "Mente activa (Cuidado congnitivo y neuroplasticidad)", "Apoyo psicológico y terapéutico", "Formación (Proceso de morir y cuidando al cuidador)", "Diversión, sala de cine y premiación"]
     }
   ];
 

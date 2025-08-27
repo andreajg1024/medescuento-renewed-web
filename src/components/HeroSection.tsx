@@ -88,7 +88,7 @@ const HeroSection = () => {
 
               {/* Mapa */}
               <Card className="bg-hero-bg/80 border-accent border-2 p-6 text-white text-center hover:scale-105 transition-transform">
-                <h3 className="text-xl font-bold mb-4">¿Dónde Estamos?</h3>
+                <h3 className="text-xl font-bold mb-4">Nuestra Ubicación</h3>
                 
                 {/* Map Container */}
                 <div className="h-32 mb-4 rounded-lg overflow-hidden">

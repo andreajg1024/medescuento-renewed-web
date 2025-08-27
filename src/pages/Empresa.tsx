@@ -27,7 +27,7 @@ const Empresa = () => {
             </CardHeader>
             <CardContent className="font-bold text-lg leading-relaxed">
               <p>
-                MEDescuento S.A.S. es una empresa quindiana que nació hace doce (12) años a partir de la iniciativa de un estudiante universitario que identificó un déficit significativo en el sistema de salud colombiano. Su propósito fue mejorar esta situación mediante alianzas con profesionales particulares de la salud, buscando ahorrar tiempo y dinero a personas y empresas, brindando bienestar integral a usuarios, sus familias y mascotas.
+                MEDescuento S.A.S. es una empresa quindiana que nació hace doce (12) años a partir de la iniciativa de un estudiante universitario que identificó un déficit significativo en el sistema de salud colombiano. Su propósito fue mejorar esta situación mediante alianzas con profesionales particulares e IPS de la salud, buscando ahorrar tiempo y dinero a personas y empresas, logrando así; bienestar integral a usuarios, sus familias y mascotas.
               </p>
               <p className="mt-4">
                 Actualmente, cuenta con una amplia red de especialistas en diferentes áreas de la salud y alianzas estratégicas con el sector empresarial. Esto le ha permitido consolidarse como una empresa líder a nivel departamental, destacándose por ofrecer acceso a servicios especializados con tarifas preferenciales y una atención de calidad, con agendamiento ágil y oportuno.
@@ -60,7 +60,7 @@ const Empresa = () => {
               </CardHeader>
               <CardContent>
                 <p className="font-bold text-lg leading-relaxed">
-                  En el 2030 seremos en el departamento del Quindío la empresa líder en marketing de planes complementarios de salud y exequiales con proyección nacional e internacional, destacada gestión y alto desarrollo tecnológico.
+                  En el 2030 seremos en el departamento del Quindío la empresa líder en marketing de planes complementarios de salud y exequiales con proyección nacional e internacional, destacando la gestión en sus procesos y alto desarrollo tecnológico.
                 </p>
               </CardContent>
             </Card>

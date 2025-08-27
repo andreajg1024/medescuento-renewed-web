@@ -8,13 +8,13 @@ const Servicios = () => {
     {
       icon: Shield,
       title: "PLAN EXEQUIAL",
-      description: "Brindamos tranquilidad a las familias con nuestro plan exequial completo. Incluye servicios funerarios de calidad, acompañamiento integral y gestión administrativa en momentos difíciles. Nuestro compromiso es ofrecer dignidad y respeto en los momentos más importantes, con cobertura amplia y atención personalizada las 24 horas.",
-      features: ["Servicios funerarios completos", "Acompañamiento familiar", "Gestión administrativa", "Atención 24/7"]
+      description: "MEDescuento presta el servicio exequial con dos empresas como son: LOS OLIVOS Y JARDINES DE RENACER, para ocho (8) integrantes, un (1) titular y siete (7) beneficiarios en su PLAN ESTANDAR",
+      features: ["Cobertuna nacional y traslado nacional", "Recogida y preparación del cuerpo", "Cofre y sala de velación (24) horas con cafeteria", "Misa (Si es catolico), carrosa funebre, bus (Transporte acompañantes)", "Inhumación o cremación", "Ramo de flores y cintas", "Tramites legales" , "SERVICIOS ADICIONALES", "Repatriación y expatriación exequial de mascotas", "Post-final (Auxilio económico para osario y cenizario) con RENACER", "Acompañamiento musical", "Salas VIP con OLIVOS" ]
     },
     {
       icon: Heart,
       title: "PLAN COMPLEMENTARIO DE SALUD", 
-      description: "MEDescuento SAS, somos una empresa QUINDIANA que llega con su PLAN COMPLEMENTARIO DE SALUD, a mitigar el impacto que se genera en las personas, por el déficit de la prestación del servicio del sector de salud Colombiano. Ofreciendo la venta de una membrecía por (1) un año, para (8) integrantes: (1) TITULAR y (7) BENEFICIARIOS más, incluido su MASCOTA donde obtendrán los siguientes beneficios.",
+      description: "MEDescuento SAS, somos una empresa QUINDIANA que llega con su PLAN COMPLEMENTARIO DE SALUD, a mitigar el impacto que se genera en las personas, por el déficit de la prestación del servicio del sector de salud Colombiano. Ofreciendo la venta de una membrecía por (1) un año, para (8) integrantes: (1) TITULAR y (7) BENEFICIARIOS más, incluido su MASCOTA donde obtendrán los siguientes beneficios:",
       features: [
     "Descuentos hasta un (70%) en citas con profesionales ESPECIALISTAS de todas las áreas, en el departamento del QUINDÍO y PEREIRA, con alianzas estratégicas en los departamentos de ANTIOQUIA, VALLE DEL CAUCA, MONTERIA, BARRANQUILLA, CAUCASIA, QUIBDO, ISTMINA, POPAYAN Y PASTO.",
     "Descuentos en atención VIP EN LABORATORIOS Y A DOMICILIO, igualmente EXÁMENES ESPECIALIZADOS. (Resonancias, ecografías y radiografías)",
@@ -43,13 +43,13 @@ const Servicios = () => {
     {
       icon: GraduationCap,
       title: "CAPACITACIÓN CON ENFASIS EN COACHING",
-      description: "Por normatividad y por los requisitos para la de implementación del sistema de seguridad en las empresas, es necesario dictar charlas, capacitaciones o talleres enfocados al crecimiento personal y al empoderamiento requerido para el cumplimiento de metas y proyectos empresariales. Nuestras capacitaciones son innovadoras y exclusivas de acuerdo a la necesidad de la empresa o el mercado, diferenciándose de las tradicionales por su ambientación, dinamismo como son presentadas, motivando a los participantes con premios durante toda la charla por su participación. LA CAPACITACION INCLUYE:",
-      features: ["El (70%) es práctico y el (30%) teórico", "Son dictadas con énfasis en coaching", "Se realiza una introducción de la empresa que contrata", "Personalizadas de acuerdo a la proyección o necesidad de la empresa", "Papelería (formatos didácticos)", "Duración (45) minutos de acuerdo a la necesidad de la empresa."]
+      description: "Por normatividad y por requisitos para la implementación del sistema de seguridad en las empresas, es necesario dictar charlas, capacitaciones o talleres enfocados al crecimiento personal y al empoderamiento requerido para el cumplimiento de metas y proyectos empresariales. Nuestras capacitaciones son innovadoras y exclusivas de acuerdo a la necesidad de la empresa o el mercado, diferenciándose de las tradicionales por su ambientación, dinamismo como son presentadas, motivando a los participantes con premios durante toda la charla por su participación. LA CAPACITACION INCLUYE:",
+      features: ["El (70%) es práctico y el (30%) teórico", "Son dictadas con énfasis en coaching", "Se realiza una introducción de la empresa que contrata", "Personalizadas de acuerdo a la proyección o necesidad de la empresa", "Papelería (Formatos didácticos)", "Duración (45) minutos mínimo, de acuerdo a la necesidad de la empresa."]
     },
     {
       icon: Activity,
       title: "PAUSAS ACTIVAS (FISICAS Y MENTALES)",
-      description: "PAUSAS ACTIVAS FISICAS: se realizan atraves de actividades físicas, didácticas y deportivas, motivando ese niño que hay en mí. PAUSAS ACTIVAS MENTALES: se realizan atraves de canciones, imágenes y formatos escritos, que exigen un nivel de concentración y del manejo del estrés al empleado, logrando una sonrisa y un estado de alegría en su día laboral",
+      description: "PAUSAS ACTIVAS FISICAS: Se realizan atraves de actividades físicas, didácticas y deportivas, motivando ese niño que hay en mí. PAUSAS ACTIVAS MENTALES: Se realizan atraves de canciones, imágenes y formatos escritos, que exigen un nivel de concentración y del manejo del estrés por parte del empleado, logrando una sonrisa y un estado de alegría en su día laboral",
       features: ["Innovadoras y estratégicas", "Diseñadas de acuerdo a la actividad económica de la empresa, área de trabajo o profesión", "Duración de (10 a 15) minutos o de acuerdo a la necesidad de la empresa", "Dictadas con énfasis en coaching."]
     },
     {
