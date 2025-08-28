@@ -105,8 +105,8 @@ const Servicios = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="/src/assets/exequial-image-1.jpg" 
-                          alt="Servicios Exequiales - Los Olivos"
+                          src="/src/assets/olivos1.jpg" 
+                          alt="Los Olivos"
                           className="w-full h-48 object-cover"
                         />
                       </CardContent>
@@ -114,8 +114,8 @@ const Servicios = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="/src/assets/exequial-image-2.jpg" 
-                          alt="Servicios Exequiales - Jardines de Renacer"
+                          src="/src/assets/renacer.jpg" 
+                          alt="Jardines de Renacer"
                           className="w-full h-48 object-cover"
                         />
                       </CardContent>
