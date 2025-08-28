@@ -41,9 +41,9 @@ const HeroSection = () => {
     "/src/assets/promo-3.jpg"
   ];
   const clienteImages = [
-    "/src/assets/cliente-1.jpg",
-    "/src/assets/cliente-2.jpg",
-    "/src/assets/cliente-3.jpg"
+    "/src/assets/clientes1.jpg",
+    "/src/assets/clientes2.jpg",
+    "/src/assets/clientes3.jpg"
   ];
   const terapeutaImages = [
     "/src/assets/Terapeuta1.jpg",
