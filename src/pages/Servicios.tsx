@@ -129,7 +129,7 @@ const Servicios = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="/lovable-uploads/4c6cfbe8-a8e4-448e-add4-a7616241ee8f.png" 
+                          src="/src/assets/guiamedica.jpg" 
                           alt="Guía Médica - Contamos con más de 2.000 prestadores de servicios de salud"
                           className="w-full h-auto object-cover"
                         />

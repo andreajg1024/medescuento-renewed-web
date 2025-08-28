@@ -84,10 +84,16 @@ const HeroSection = () => {
                   className="h-32 w-auto object-contain"
                 />
               </div>
-
+              <a
+              href="https://wa.me/573225426408?text=Hola%2C%20estoy%20interesado%20en%20sus%20servicios"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+              
               <Button className="bg-accent hover:bg-accent/90 text-white px-8 py-3 rounded-full text-lg font-semibold">
                 CONTACTO
               </Button>
+              </a>
             </div>
 
             {/* Service Cards + Mapa */}

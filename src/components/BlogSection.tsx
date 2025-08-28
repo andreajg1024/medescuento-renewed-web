@@ -35,7 +35,7 @@ const BlogSection = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-block bg-accent text-white px-8 py-4 rounded-full mb-8">
-            <h2 className="text-2xl font-bold">Nuestro Blog</h2>
+            <h2 className="text-2xl font-bold">FOTOS</h2>
           </div>
           <p className="text-lg text-muted-foreground">
             Mira todo lo nuevo y las proyecciones que tiene MEDescuento
@@ -59,15 +59,6 @@ const BlogSection = () => {
               </div>
             </Card>
           ))}
-        </div>
-
-        {/* See More Button */}
-        <div className="text-center">
-          <Button 
-            className="bg-accent hover:bg-accent/90 text-white px-8 py-3 rounded-full font-semibold"
-          >
-            VER MÁS
-          </Button>
         </div>
       </div>
     </section>
