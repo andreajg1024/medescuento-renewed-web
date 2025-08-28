@@ -99,6 +99,30 @@ const Servicios = () => {
                   </CardContent>
                 </Card>
                 
+                {/* Images for specific services */}
+                {index === 0 && (
+                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="/src/assets/exequial-image-1.jpg" 
+                          alt="Servicios Exequiales - Los Olivos"
+                          className="w-full h-48 object-cover"
+                        />
+                      </CardContent>
+                    </Card>
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="/src/assets/exequial-image-2.jpg" 
+                          alt="Servicios Exequiales - Jardines de Renacer"
+                          className="w-full h-48 object-cover"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+                
                 {/* Medical Guide Image after Plan Complementario de Salud */}
                 {index === 1 && (
                   <div className="mt-8 mb-4">
@@ -108,6 +132,49 @@ const Servicios = () => {
                           src="/lovable-uploads/4c6cfbe8-a8e4-448e-add4-a7616241ee8f.png" 
                           alt="Guía Médica - Contamos con más de 2.000 prestadores de servicios de salud"
                           className="w-full h-auto object-cover"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {/* Images for other services */}
+                {index === 2 && (
+                  <div className="mt-8 mb-4">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="/src/assets/capacitacion-image.jpg" 
+                          alt="Capacitación con énfasis en Coaching"
+                          className="w-full h-48 object-cover"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {index === 3 && (
+                  <div className="mt-8 mb-4">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="/src/assets/pausas-activas-image.jpg" 
+                          alt="Pausas Activas Físicas y Mentales"
+                          className="w-full h-48 object-cover"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {index === 4 && (
+                  <div className="mt-8 mb-4">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="/src/assets/consultoria-image.jpg" 
+                          alt="Consultorías Empresariales"
+                          className="w-full h-48 object-cover"
                         />
                       </CardContent>
                     </Card>

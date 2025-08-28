@@ -5,9 +5,22 @@ import { Building2, Target, Eye, Lightbulb, Heart, Handshake } from "lucide-reac
 
 const Empresa = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen relative">
+      {/* Background Carousel */}
+      <div className="fixed inset-0 z-0">
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" 
+             style={{ backgroundImage: 'url(/src/assets/instalaciones-1.jpg)' }}>
+        </div>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 animate-fade-in" 
+             style={{ backgroundImage: 'url(/src/assets/instalaciones-2.jpg)' }}>
+        </div>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0" 
+             style={{ backgroundImage: 'url(/src/assets/instalaciones-3.jpg)' }}>
+        </div>
+      </div>
+      
       <Header />
-      <main className="container mx-auto px-4 py-12">
+      <main className="container mx-auto px-4 py-12 relative z-10">
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Hero Section */}
           <div className="text-center space-y-4">
@@ -71,7 +84,7 @@ const Empresa = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-xl font-bold text-green-800">
-                  <Lightbulb className="w-6 h-6" />
+                  <Lightbulb className="w-6 h-6 text-yellow-500" />
                   PRINCIPIOS
                 </CardTitle>
               </CardHeader>
@@ -100,7 +113,7 @@ const Empresa = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="font-bold flex items-center gap-3 text-xl font-bold text-green-800">
-                  <Heart className="w-6 h-6" />
+                  <Heart className="w-6 h-6 text-red-600 fill-red-600" />
                   VALORES CORPORATIVOS
                 </CardTitle>
               </CardHeader>

@@ -47,10 +47,12 @@ const Footer = () => {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`${social.bgColor} text-white p-2 rounded-lg hover:opacity-80 transition-opacity`}
+                  className={`${social.bgColor} text-white p-3 rounded-lg hover:opacity-80 transition-opacity`}
                   aria-label={social.name}
                 >
-                  {social.icon}
+                  <div className="w-6 h-6">
+                    {social.icon}
+                  </div>
                 </a>
               ))}
             </div>

@@ -63,27 +63,48 @@ const HeroSection = () => {
             {/* Service Cards + Mapa */}
             <div className="grid md:grid-cols-4 gap-6">
               {/* Promoción */}
-              <Card className="bg-card-promotion p-6 text-white text-center hover:scale-105 transition-transform">
-                <h3 className="text-xl font-bold mb-2">Promoción</h3>
-                <p className="text-sm opacity-90">Conoce</p>
+              <Card className="bg-card-promotion p-6 text-white text-center hover:scale-105 transition-transform relative overflow-hidden">
+                <div className="absolute inset-0 flex">
+                  <div className="w-1/3 bg-cover bg-center opacity-60" style={{ backgroundImage: 'url(/src/assets/promo-1.jpg)' }}></div>
+                  <div className="w-1/3 bg-cover bg-center opacity-60" style={{ backgroundImage: 'url(/src/assets/promo-2.jpg)' }}></div>
+                  <div className="w-1/3 bg-cover bg-center opacity-60" style={{ backgroundImage: 'url(/src/assets/promo-3.jpg)' }}></div>
+                </div>
+                <div className="relative z-10">
+                  <h3 className="text-xl font-bold mb-2">Promoción</h3>
+                  <p className="text-sm opacity-90">Conoce</p>
+                </div>
               </Card>
               
               {/* Clientes Satisfechos */}
-              <Card className="bg-card-promotion p-6 text-black text-center hover:scale-105 transition-transform">
-                <h3 className="text-xl font-bold mb-2">Clientes Satisfechos</h3>
+              <Card className="bg-card-promotion p-6 text-black text-center hover:scale-105 transition-transform relative overflow-hidden">
+                <div className="absolute inset-0 flex">
+                  <div className="w-1/3 bg-cover bg-center opacity-60" style={{ backgroundImage: 'url(/src/assets/cliente-1.jpg)' }}></div>
+                  <div className="w-1/3 bg-cover bg-center opacity-60" style={{ backgroundImage: 'url(/src/assets/cliente-2.jpg)' }}></div>
+                  <div className="w-1/3 bg-cover bg-center opacity-60" style={{ backgroundImage: 'url(/src/assets/cliente-3.jpg)' }}></div>
+                </div>
+                <div className="relative z-10">
+                  <h3 className="text-xl font-bold mb-2">Clientes Satisfechos</h3>
+                </div>
               </Card>
               
               {/* Terapeuta */}
-              <Card className="bg-card-terapeuta p-6 text-white text-center hover:scale-105 transition-transform">
-                <div className="mb-4">
-                  <div className="w-8 h-8 bg-white rounded-full mx-auto flex items-center justify-center">
-                    <span className="text-card-terapeuta text-2xl">★</span>
-                  </div>
+              <Card className="bg-card-terapeuta p-6 text-white text-center hover:scale-105 transition-transform relative overflow-hidden">
+                <div className="absolute inset-0 flex">
+                  <div className="w-1/3 bg-cover bg-center opacity-60" style={{ backgroundImage: 'url(/src/assets/terapia-1.jpg)' }}></div>
+                  <div className="w-1/3 bg-cover bg-center opacity-60" style={{ backgroundImage: 'url(/src/assets/terapia-2.jpg)' }}></div>
+                  <div className="w-1/3 bg-cover bg-center opacity-60" style={{ backgroundImage: 'url(/src/assets/terapia-3.jpg)' }}></div>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Terapeuta</h3>
-                <p className="text-sm opacity-90">
-                  Ansiedad, depresión, estrés, insomnio y duelo.
-                </p>
+                <div className="relative z-10">
+                  <div className="mb-4">
+                    <div className="w-8 h-8 bg-white rounded-full mx-auto flex items-center justify-center">
+                      <span className="text-card-terapeuta text-2xl">★</span>
+                    </div>
+                  </div>
+                  <h3 className="text-xl font-bold mb-2">Terapeuta</h3>
+                  <p className="text-sm opacity-90">
+                    Ansiedad, depresión, estrés, insomnio y duelo.
+                  </p>
+                </div>
               </Card>
 
               {/* Mapa */}

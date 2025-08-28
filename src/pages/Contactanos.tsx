@@ -48,7 +48,7 @@ const Contactanos = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle className="flex flex-col items-center gap-3 font-bold text-green-800">
-                  <Mail className="w-12 h-12" />
+                  <Mail className="w-12 h-12 text-blue-600" />
                   CORREO ELECTRÓNICO
                 </CardTitle>
               </CardHeader>
@@ -68,7 +68,7 @@ const Contactanos = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle className="flex flex-col items-center gap-3 font-bold text-green-800">
-                  <Clock className="w-12 h-12" />
+                  <Clock className="w-12 h-12 text-red-600" />
                   HORARIO DE ATENCIÓN
                 </CardTitle>
               </CardHeader>
@@ -84,7 +84,7 @@ const Contactanos = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle className="flex flex-col items-center gap-3 font-bold text-green-800">
-                  <MessageSquare className="w-12 h-12" />
+                  <MessageSquare className="w-12 h-12 text-blue-600" />
                   WHATSAPP
                 </CardTitle>
               </CardHeader>
@@ -125,6 +125,7 @@ const Contactanos = () => {
                       onChange={handleChange}
                       required
                       placeholder="Tu nombre completo"
+                      className="border-blue-500 border-2 focus:border-blue-600"
                     />
                   </div>
 
@@ -140,6 +141,7 @@ const Contactanos = () => {
                       onChange={handleChange}
                       required
                       placeholder="tu@correo.com"
+                      className="border-blue-500 border-2 focus:border-blue-600"
                     />
                   </div>
 
@@ -154,6 +156,7 @@ const Contactanos = () => {
                       onChange={handleChange}
                       required
                       placeholder="¿En qué podemos ayudarte?"
+                      className="border-blue-500 border-2 focus:border-blue-600"
                     />
                   </div>
 
@@ -169,6 +172,7 @@ const Contactanos = () => {
                       required
                       placeholder="Escribe tu mensaje aquí..."
                       rows={5}
+                      className="border-blue-500 border-2 focus:border-blue-600"
                     />
                   </div>
 
