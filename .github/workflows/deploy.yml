@@ -1,15 +1,16 @@
-name: Deploy to GitHub Pages
+name: Deploy
 
 on:
   push:
     branches:
-      - main   # Cambia 'main' si tu rama principal se llama distinto (ej: master)
+      - main   # 👈 cámbialo a tu rama principal si no es main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # 👇 Aquí va el bloque que te dije
       - name: Checkout repository
         uses: actions/checkout@v3
 
@@ -24,8 +25,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      # 👇 Este es un ejemplo de despliegue en GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./dist   # cambia a ./build si usas React o Vite
