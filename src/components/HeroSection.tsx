@@ -77,11 +77,8 @@ const HeroSection = () => {
             {/* Logo */}
             <div className="text-center lg:text-left">
               <div className="mb-6 flex justify-center lg:justify-start">
-                <img
-                  src="/Galeria/imagenhero.jpg"   // ✅ logo desde public
-                  alt="Un mundo de privilegios a su alcance"
-                  className="h-32 w-auto object-contain"
-                />
+                  <img src="/Galeria/imagenhero.jpg" alt="Logo" />
+   
               </div>
 
               <a
