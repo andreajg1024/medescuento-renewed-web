@@ -7,14 +7,14 @@ import { useEffect, useState } from "react";
 const Empresa = () => {
   // Tus 8 imágenes
   const images = [
-    "/src/assets/empresa1.jpg",
-    "/src/assets/empresa2.jpg",
-    "/src/assets/empresa3.jpg",
-    "/src/assets/empresa4.jpg",
-    "/src/assets/empresa5.jpg",
-    "/src/assets/empresa6.jpg",
-    "/src/assets/empresa7.jpg",
-    "/src/assets/empresa8.jpg",
+    "./Galeria/empresa1.jpg",
+    "./Galeria/empresa2.jpg",
+    "./Galeria/empresa3.jpg",
+    "./Galeria/empresa4.jpg",
+    "./Galeria/empresa5.jpg",
+    "./Galeria/empresa6.jpg",
+    "./Galeria/empresa7.jpg",
+    "./Galeria/empresa8.jpg",
   ];
 
   const [current, setCurrent] = useState(0);

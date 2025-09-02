@@ -5,10 +5,10 @@ import { useState, useEffect } from "react";
 const HeroSection = () => {
   // Array con los nombres de las imágenes (para el fondo principal)
   const slides = [
-    "/Galeria/slider1.jpg",
-    "/Galeria/slider2.jpg",
-    "/Galeria/slider3.jpg",
-    "/Galeria/slider4.jpg"
+    "./Galeria/slider1.jpg",
+    "./Galeria/slider2.jpg",
+    "./Galeria/slider3.jpg",
+    "./Galeria/slider4.jpg"
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -35,19 +35,19 @@ const HeroSection = () => {
 
   // Arrays de imágenes para los cuadros
   const promoImages = [
-    "/Galeria/promo-1.jpg",
-    "/Galeria/promo-2.jpg",
-    "/Galeria/promo-3.jpg"
+    "./Galeria/promo-1.jpg",
+    "./Galeria/promo-2.jpg",
+    "./Galeria/promo-3.jpg"
   ];
   const clienteImages = [
-    "/Galeria/clientes1.jpg",
-    "/Galeria/clientes2.jpg",
-    "/Galeria/clientes3.jpg"
+    "./Galeria/clientes1.jpg",
+    "./Galeria/clientes2.jpg",
+    "./Galeria/clientes3.jpg"
   ];
   const terapeutaImages = [
-    "/Galeria/Terapeuta1.jpg",
-    "/Galeria/Terapeuta2.jpg",
-    "/Galeria/Terapeuta3.jpg"
+    "./Galeria/Terapeuta1.jpg",
+    "./Galeria/Terapeuta2.jpg",
+    "./Galeria/Terapeuta3.jpg"
   ];
 
   // Imagen actual de cada carrusel
@@ -78,7 +78,7 @@ const HeroSection = () => {
             <div className="text-center lg:text-left">
               <div className="mb-6 flex justify-center lg:justify-start">
                 <img
-                  src="/Galeria/imagenhero.jpg"   // ✅ logo desde public
+                  src="./Galeria/imagenhero.jpg"   // ✅ logo desde public
                   alt="Un mundo de privilegios a su alcance"
                   className="h-32 w-auto object-contain"
                 />
