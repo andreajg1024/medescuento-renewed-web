@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useState, useEffect } from "react";
-import planetImage from "@/assets/imagenhero.jpg";
 
 const HeroSection = () => {
   // Array con los nombres de las imágenes (para el fondo principal)
@@ -57,43 +56,42 @@ const HeroSection = () => {
   const terapeutaImage = useCarousel(terapeutaImages);
 
   return (
-  <section className="bg-gradient-hero min-h-[60vh] py-16 relative overflow-hidden">
-    {/* Background Carousel Automático */}
-    <div className="absolute inset-0 z-0">
-      {slides.map((slide, index) => (
-        <div
-          key={index}
-          className={`absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
-            index === currentSlide ? "opacity-60" : "opacity-0"
-          }`}
-          style={{ backgroundImage: `url(${slide})` }}
-        />
-      ))}
-    </div>
+    <section className="bg-gradient-hero min-h-[60vh] py-16 relative overflow-hidden">
+      {/* Background Carousel Automático */}
+      <div className="absolute inset-0 z-0">
+        {slides.map((slide, index) => (
+          <div
+            key={index}
+            className={`absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
+              index === currentSlide ? "opacity-60" : "opacity-0"
+            }`}
+            style={{ backgroundImage: `url(${slide})` }}
+          />
+        ))}
+      </div>
 
-    <div className="container mx-auto px-4 relative z-10">
-      <div className="grid lg:grid-cols-3 gap-8 items-center">
-        {/* Left side - Main content */}
-        <div className="lg:col-span-3 space-y-8">
-          {/* Planet Image */}
-          <div className="text-center lg:text-left">
-            <div className="mb-6 flex justify-center lg:justify-start">
-              <img
-                src="/Galeria/imagenhero.jpg"   // ✅ ya no import, directo de public
-                alt="Un mundo de privilegios a su alcance"
-                className="h-32 w-auto object-contain"
-              />
-            </div>
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="grid lg:grid-cols-3 gap-8 items-center">
+          {/* Left side - Main content */}
+          <div className="lg:col-span-3 space-y-8">
+            {/* Logo */}
+            <div className="text-center lg:text-left">
+              <div className="mb-6 flex justify-center lg:justify-start">
+                <img
+                  src="/Galeria/imagenhero.jpg"   // ✅ logo desde public
+                  alt="Un mundo de privilegios a su alcance"
+                  className="h-32 w-auto object-contain"
+                />
+              </div>
 
               <a
-              href="https://wa.me/573225426408?text=Hola%2C%20estoy%20interesado%20en%20sus%20servicios"
-              target="_blank"
-              rel="noopener noreferrer"
+                href="https://wa.me/573225426408?text=Hola%2C%20estoy%20interesado%20en%20sus%20servicios"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-              
-              <Button className="bg-accent hover:bg-accent/90 text-white px-8 py-3 rounded-full text-lg font-semibold">
-                CONTACTO
-              </Button>
+                <Button className="bg-accent hover:bg-accent/90 text-white px-8 py-3 rounded-full text-lg font-semibold">
+                  CONTACTO
+                </Button>
               </a>
             </div>
 
