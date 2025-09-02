@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 👇 Aquí va el bloque que te dije
+      # 👇 Aquí va el bloque que se cambió
       - name: Checkout repository
         uses: actions/checkout@v3
 
