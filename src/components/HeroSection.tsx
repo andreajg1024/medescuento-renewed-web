@@ -6,10 +6,10 @@ import planetImage from "@/assets/imagenhero.jpg";
 const HeroSection = () => {
   // Array con los nombres de las imágenes (para el fondo principal)
   const slides = [
-    "/src/assets/slider1.jpg",
-    "/src/assets/slider2.jpg",
-    "/src/assets/slider3.jpg",
-    "/src/assets/slider4.jpg"
+    "/Galeria/slider1.jpg",
+    "/Galeria/slider2.jpg",
+    "/Galeria/slider3.jpg",
+    "/Galeria/slider4.jpg"
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -36,19 +36,19 @@ const HeroSection = () => {
 
   // Arrays de imágenes para los cuadros
   const promoImages = [
-    "/src/assets/promo-1.jpg",
-    "/src/assets/promo-2.jpg",
-    "/src/assets/promo-3.jpg"
+    "/Galeria/promo-1.jpg",
+    "/Galeria/promo-2.jpg",
+    "/Galeria/promo-3.jpg"
   ];
   const clienteImages = [
-    "/src/assets/clientes1.jpg",
-    "/src/assets/clientes2.jpg",
-    "/src/assets/clientes3.jpg"
+    "/Galeria/clientes1.jpg",
+    "/Galeria/clientes2.jpg",
+    "/Galeria/clientes3.jpg"
   ];
   const terapeutaImages = [
-    "/src/assets/Terapeuta1.jpg",
-    "/src/assets/Terapeuta2.jpg",
-    "/src/assets/Terapeuta3.jpg"
+    "/Galeria/Terapeuta1.jpg",
+    "/Galeria/Terapeuta2.jpg",
+    "/Galeria/Terapeuta3.jpg"
   ];
 
   // Imagen actual de cada carrusel
@@ -57,33 +57,34 @@ const HeroSection = () => {
   const terapeutaImage = useCarousel(terapeutaImages);
 
   return (
-    <section className="bg-gradient-hero min-h-[60vh] py-16 relative overflow-hidden">
-      {/* Background Carousel Automático */}
-      <div className="absolute inset-0 z-0">
-        {slides.map((slide, index) => (
-          <div
-            key={index}
-            className={`absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
-              index === currentSlide ? "opacity-60" : "opacity-0"
-            }`}
-            style={{ backgroundImage: `url(${slide})` }}
-          />
-        ))}
-      </div>
+  <section className="bg-gradient-hero min-h-[60vh] py-16 relative overflow-hidden">
+    {/* Background Carousel Automático */}
+    <div className="absolute inset-0 z-0">
+      {slides.map((slide, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
+            index === currentSlide ? "opacity-60" : "opacity-0"
+          }`}
+          style={{ backgroundImage: `url(${slide})` }}
+        />
+      ))}
+    </div>
 
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="grid lg:grid-cols-3 gap-8 items-center">
-          {/* Left side - Main content */}
-          <div className="lg:col-span-3 space-y-8">
-            {/* Planet Image */}
-            <div className="text-center lg:text-left">
-              <div className="mb-6 flex justify-center lg:justify-start">
-                <img
-                  src={planetImage}
-                  alt="Un mundo de privilegios a su alcance"
-                  className="h-32 w-auto object-contain"
-                />
-              </div>
+    <div className="container mx-auto px-4 relative z-10">
+      <div className="grid lg:grid-cols-3 gap-8 items-center">
+        {/* Left side - Main content */}
+        <div className="lg:col-span-3 space-y-8">
+          {/* Planet Image */}
+          <div className="text-center lg:text-left">
+            <div className="mb-6 flex justify-center lg:justify-start">
+              <img
+                src="/Galeria/imagenhero.jpg"   // ✅ ya no import, directo de public
+                alt="Un mundo de privilegios a su alcance"
+                className="h-32 w-auto object-contain"
+              />
+            </div>
+
               <a
               href="https://wa.me/573225426408?text=Hola%2C%20estoy%20interesado%20en%20sus%20servicios"
               target="_blank"
