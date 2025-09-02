@@ -104,8 +104,8 @@ const HeroSection = () => {
                   style={{ backgroundImage: `url(${promoImage})` }}
                 ></div>
                 <div className="relative z-10 bg-black/40 p-4 rounded-lg">
-                  <h3 className="text-xl font-bold mb-2">Promoción</h3>
-                  <p className="text-sm">Conoce</p>
+                  <h3 className="text-xl font-bold mb-2">Nuestras Mascotas</h3>
+                  <p className="text-sm"></p>
                 </div>
               </Card>
 
@@ -131,10 +131,10 @@ const HeroSection = () => {
                 <div className="relative z-10 bg-black/40 p-4 rounded-lg">
                   <div className="mb-4">
                     <div className="w-8 h-8 bg-white rounded-full mx-auto flex items-center justify-center">
-                      <span className="text-card-terapeuta text-2xl">★</span>
+                      <span className="text-card-terapeuta text-2xl"></span>
                     </div>
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Terapeuta</h3>
+                  <h3 className="text-xl font-bold mb-2">Terapias Holisticas</h3>
                   <p className="text-sm">
                     Ansiedad, depresión, estrés, insomnio y duelo.
                   </p>
