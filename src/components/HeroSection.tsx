@@ -98,7 +98,7 @@ const HeroSection = () => {
             {/* Service Cards + Mapa */}
             <div className="grid md:grid-cols-4 gap-6">
               {/* Promoción */}
-              <Card className="p-3 text-white text-center hover:scale-105 transition-transform relative overflow-hidden">
+              <Card className="p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden">
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${promoImage})` }}
@@ -110,7 +110,7 @@ const HeroSection = () => {
               </Card>
 
               {/* Clientes Satisfechos */}
-              <Card className="p-3 text-white text-center hover:scale-105 transition-transform relative overflow-hidden">
+              <Card className="p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden">
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${clienteImage})` }}
@@ -123,7 +123,7 @@ const HeroSection = () => {
               </Card>
 
               {/* Terapeuta */}
-              <Card className="p-3 text-white text-center hover:scale-105 transition-transform relative overflow-hidden">
+              <Card className="p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden">
                 <div
                 className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                 style={{ backgroundImage: `url(${terapeutaImage})` }}
