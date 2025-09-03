@@ -20,32 +20,9 @@ const ServicesSection = () => {
         {/* Main heading */}
         <div className="text-center mb-12">
           <div className="inline-block bg-accent text-white px-8 py-4 rounded-full mb-8">
-            <h2 className="text-2xl font-bold">¿En Qué Podemos Ayudarte?</h2>
+            <h2 className="text-2xl font-bold">Nuestras Cifras</h2>
           </div>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Esta lista tendrá diferentes servicios o entradas importantes de la web
-          </p>
-        </div>
-
-        {/* Search Section */}
-        <div className="mb-16">
-          <Card className="bg-muted p-8">
-            <h3 className="text-2xl font-bold mb-6">Haz una búsqueda</h3>
-            <div className="flex gap-4">
-              <div className="flex-1 relative">
-                <Input
-                  placeholder="Buscar..."
-                  className="pl-4 pr-12 py-3 text-lg"
-                />
-                <Button 
-                  size="icon"
-                  className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-muted-foreground hover:bg-muted-foreground/80"
-                >
-                  <Search className="w-5 h-5" />
-                </Button>
-              </div>
-            </div>
-          </Card>
+        
         </div>
 
         {/* Service Cards */}
