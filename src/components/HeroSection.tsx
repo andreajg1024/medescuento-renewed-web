@@ -115,7 +115,7 @@ const HeroSection = () => {
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${clienteImage})` }}
                 ></div>
-                <div className="relative z-10 bg-green-500/40 p-4 rounded-lg">
+                <div className="relative z-10 bg-green-500/50 p-4 rounded-lg">
                   <h3 className="text-xl font-bold mb-2">
                     Clientes Satisfechos
                   </h3>
