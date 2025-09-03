@@ -125,21 +125,16 @@ const HeroSection = () => {
               {/* Terapeuta */}
               <Card className="p-6 text-white text-center hover:scale-105 transition-transform relative overflow-hidden">
                 <div
-                  className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
-                  style={{ backgroundImage: `url(${terapeutaImage})` }}
+                className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
+                style={{ backgroundImage: `url(${terapeutaImage})` }}
                 ></div>
                 <div className="relative z-10 bg-black/40 p-4 rounded-lg">
-                  <div className="mb-4">
-                    <div className="w-8 h-8 bg-white rounded-full mx-auto flex items-center justify-center">
-                      <span className="text-card-terapeuta text-2xl"></span>
-                    </div>
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">Terapias Holisticas</h3>
-                  <p className="text-sm">
-                    Ansiedad, depresión, estrés, insomnio y duelo.
+                <h3 className="text-xl font-bold mb-2">Terapias Holisticas</h3>
+                <p className="text-sm">
+                  Ansiedad, depresión, estrés, insomnio y duelo.
                   </p>
-                </div>
-              </Card>
+                  </div>
+                  </Card>
 
               {/* Mapa */}
               <Card className="bg-hero-bg/80 border-accent border-2 p-6 text-white text-center hover:scale-105 transition-transform">
