@@ -103,7 +103,7 @@ const HeroSection = () => {
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${promoImage})` }}
                 ></div>
-                <div className="relative z-10 bg-pink-500/40 p-4 rounded-lg">
+                <div className="relative z-10 bg-pink-500/60 p-4 rounded-lg">
                   <h3 className="text-xl font-bold mb-2">Nuestras Mascotas</h3>
                   <p className="text-sm"></p>
                 </div>
