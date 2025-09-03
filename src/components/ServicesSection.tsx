@@ -20,7 +20,7 @@ const ServicesSection = () => {
         {/* Main heading */}
         <div className="text-center mb-12">
           <div className="inline-block bg-accent text-white px-8 py-4 rounded-full mb-8">
-            <h2 className="text-2xl font-bold">Nuestras Cifras</h2>
+            <h2 className="text-2xl font-bold">NUESTRAS CIFRAS</h2>
           </div>
         
         </div>

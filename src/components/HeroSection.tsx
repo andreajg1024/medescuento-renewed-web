@@ -35,9 +35,9 @@ const HeroSection = () => {
 
   // Arrays de imágenes para los cuadros
   const promoImages = [
-    "./Galeria/promo-1.jpg",
-    "./Galeria/promo-2.jpg",
-    "./Galeria/promo-3.jpg"
+    "./Galeria/mascotas1.jpg",
+    "./Galeria/mascotas2.jpg",
+    "./Galeria/mascotas3.jpg"
   ];
   const clienteImages = [
     "./Galeria/clientes1.jpg",
