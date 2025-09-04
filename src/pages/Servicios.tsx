@@ -144,7 +144,7 @@ const Servicios = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="./Galeria/capacitacion-image.jpg" 
+                          src="./Galeria/capacitacion.jpg" 
                           alt="Capacitación con énfasis en Coaching"
                           className="w-full h-48 object-cover"
                         />
