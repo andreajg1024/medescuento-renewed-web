@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 const Empresa = () => {
   // Tus 8 imágenes
   const images = [
-    "./Galeria/empresa1.jpg",
+    "./Galeria/empresa9.jpg",
     "./Galeria/empresa2.jpg",
     "./Galeria/empresa3.jpg",
     "./Galeria/empresa4.jpg",
@@ -15,7 +15,7 @@ const Empresa = () => {
     "./Galeria/empresa6.jpg",
     "./Galeria/empresa7.jpg",
     "./Galeria/empresa8.jpg",
-    "./Galeria/empresa9.jpg",
+    "./Galeria/empresa1.jpg",
   ];
 
   const [current, setCurrent] = useState(0);
