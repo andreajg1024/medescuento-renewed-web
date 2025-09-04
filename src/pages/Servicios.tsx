@@ -174,7 +174,7 @@ const Servicios = () => {
                         <img 
                           src="./Galeria/consultoria.jpg" 
                           alt="Consultorías Empresariales"
-                          className="w-full h-48 object-cover rounded-lg"
+                          className="w-full h-80 object-cover rounded-lg"
                         />
                       </CardContent>
                     </Card>
