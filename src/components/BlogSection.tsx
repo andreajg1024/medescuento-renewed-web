@@ -12,7 +12,7 @@ const BlogSection = () => {
     },
     {
       id: 3,
-      image: "/imagen3.jpg",
+      image: "./Galeria/fotos3.jpg",
     }
   ];
 

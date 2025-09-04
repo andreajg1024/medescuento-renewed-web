@@ -15,6 +15,7 @@ const Empresa = () => {
     "./Galeria/empresa6.jpg",
     "./Galeria/empresa7.jpg",
     "./Galeria/empresa8.jpg",
+    "./Galeria/empresa9.jpg",
   ];
 
   const [current, setCurrent] = useState(0);
