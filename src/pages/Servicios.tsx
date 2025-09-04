@@ -146,7 +146,7 @@ const Servicios = () => {
                         <img 
                           src="./Galeria/capacitacion.jpg" 
                           alt="Capacitación con énfasis en Coaching"
-                          className="w-full h-48 object-cover"
+                          className="w-64 h-80 object-cover rounded-lg"
                         />
                       </CardContent>
                     </Card>
