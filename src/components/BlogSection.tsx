@@ -1,31 +1,18 @@
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 
 const BlogSection = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "Largas esperas? - Jueves de Tips",
-      image: "/placeholder.svg",
-      description: "Cansado de largas esperas en las salas de urgencias y citas",
-      category: "JUEVES DE TIPS",
-      bgColor: "bg-secondary",
+      image: "./Galeria/fotos1.jpg",
     },
     {
       id: 2,
-      title: "Nuevo Servicio de Endocrinólogo Pediatra",
-      image: "/placeholder.svg", 
-      description: "Contamos con nuevo servicio de endocrinólogo pediatra",
-      category: "SABIAS QUE...",
-      bgColor: "bg-hero-bg",
+      image: "./Galeria/fotos2.jpg",
     },
     {
       id: 3,
-      title: "Órganos del Sistema Endocrino",
-      image: "/placeholder.svg",
-      description: "Edgar Fernando Perez - Órganos del Sistema Endocrino",
-      category: "JUEVES DE TIPS", 
-      bgColor: "bg-gradient-to-br from-secondary to-primary",
+      image: "/imagen3.jpg",
     }
   ];
 
@@ -42,20 +29,19 @@ const BlogSection = () => {
           </p>
         </div>
 
-        {/* Blog Cards */}
+        {/* Blog Cards solo con imágenes */}
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {blogPosts.map((post) => (
-            <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-shadow group">
-              <div className={`${post.bgColor} h-48 flex items-center justify-center text-white relative overflow-hidden`}>
-                <div className="text-center p-6">
-                  <span className="text-sm font-semibold opacity-80 mb-2 block">
-                    {post.category}
-                  </span>
-                  <h3 className="text-lg font-bold leading-tight">
-                    {post.title}
-                  </h3>
-                </div>
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
+            <Card
+              key={post.id}
+              className="overflow-hidden hover:shadow-lg transition-shadow group"
+            >
+              <div className="h-48 w-full overflow-hidden">
+                <img
+                  src={post.image}
+                  alt={`Imagen ${post.id}`}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                />
               </div>
             </Card>
           ))}
