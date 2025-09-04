@@ -142,7 +142,7 @@ const Servicios = () => {
                 {index === 2 && (
                   <div className="mt-8 mb-4">
                     <Card className="overflow-hidden">
-                      <CardContent className="p-0">
+                      <CardContent className="p-0 flex justify-center">
                         <img 
                           src="./Galeria/capacitacion.jpg" 
                           alt="Capacitación con énfasis en Coaching"
