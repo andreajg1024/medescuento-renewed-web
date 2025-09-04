@@ -170,7 +170,7 @@ const Servicios = () => {
                 {index === 4 && (
                   <div className="mt-8 mb-4">
                     <Card className="overflow-hidden">
-                      <CardContent className="p-0">
+                      <CardContent className="p-0 flex justify-center">
                         <img 
                           src="./Galeria/consultoria.jpg" 
                           alt="Consultorías Empresariales"
