@@ -127,7 +127,7 @@ const Servicios = () => {
                 {index === 1 && (
                   <div className="mt-8 mb-4">
                     <Card className="overflow-hidden">
-                      <CardContent className="p-0">
+                      <CardContent className="p-0 flex justify-center">
                         <img 
                           src="./Galeria/guiamedica.jpg" 
                           alt="Guía Médica - Contamos con más de 2.000 prestadores de servicios de salud"
@@ -156,11 +156,11 @@ const Servicios = () => {
                 {index === 3 && (
                   <div className="mt-8 mb-4">
                     <Card className="overflow-hidden">
-                      <CardContent className="p-0">
+                      <CardContent className="p-0 flex justify-center">
                         <img 
-                          src="./Galeria/pausas-activas-image.jpg" 
+                          src="./Galeria/pausa.jpg" 
                           alt="Pausas Activas Físicas y Mentales"
-                          className="w-full h-48 object-cover"
+                          className="w-50 h-80 object-cover rounded-lg"
                         />
                       </CardContent>
                     </Card>
@@ -172,9 +172,9 @@ const Servicios = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="./Galeria/consultoria-image.jpg" 
+                          src="./Galeria/consultoria.jpg" 
                           alt="Consultorías Empresariales"
-                          className="w-full h-48 object-cover"
+                          className="w-full h-48 object-cover rounded-lg"
                         />
                       </CardContent>
                     </Card>
