@@ -140,17 +140,14 @@ const Servicios = () => {
 
                 {/* Images for other services */}
                 {index === 2 && (
-                  <div className="mt-8 mb-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0 flex justify-center">
-                        <img 
-                          src="./Galeria/capacitacion.jpg" 
-                          alt="Capacitación con énfasis en Coaching"
-                          className="w-50 h-80 object-cover rounded-lg"
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <img 
+                    src="./Galeria/capacitacion.jpg" 
+                    alt="Capacitación con énfasis en Coaching"
+                    className="w-64 h-80 object-cover rounded-lg"
+                    />
+                    </div>
+
                 )}
 
                 {index === 3 && (
