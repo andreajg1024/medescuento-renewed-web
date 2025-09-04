@@ -105,7 +105,7 @@ const Servicios = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="./Galeria/olivos1.jpg" 
+                          src="./Galeria/olivos2.jpg" 
                           alt="Los Olivos"
                           className="w-full h-48 object-cover"
                         />
