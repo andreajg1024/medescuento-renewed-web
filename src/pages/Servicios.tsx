@@ -151,32 +151,24 @@ const Servicios = () => {
                 )}
 
                 {index === 3 && (
-                  <div className="mt-8 mb-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0 flex justify-center">
-                        <img 
-                          src="./Galeria/pausa.jpg" 
-                          alt="Pausas Activas Físicas y Mentales"
-                          className="w-50 h-80 object-cover rounded-lg"
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
-                )}
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <img 
+                    src="./Galeria/pausa.jpg" 
+                    alt="Pausas Activas Físicas y Mentales"
+                    className="w-64 h-80 object-cover rounded-lg"
+                    />
+                    </div>
+                    )}
 
                 {index === 4 && (
-                  <div className="mt-8 mb-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0 flex justify-center">
+                    <div className="mt-8 mb-4 flex justify-center">
                         <img 
-                          src="./Galeria/consultoria.jpg" 
-                          alt="Consultorías Empresariales"
-                          className="w-50 h-80 object-cover rounded-lg"
+                        src="./Galeria/consultoria.jpg" 
+                        alt="Consultorías Empresariales"
+                        className="w-64 h-80 object-cover rounded-lg"
                         />
-                      </CardContent>
-                    </Card>
-                  </div>
-                )}
+                        </div>
+                      )}
               </div>
             ))}
           </div>
