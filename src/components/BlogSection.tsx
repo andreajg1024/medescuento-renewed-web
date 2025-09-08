@@ -41,6 +41,7 @@ const BlogSection = () => {
                   src={post.image}
                   alt={`Imagen ${post.id}`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                  loading="lazy"
                 />
               </div>
             </Card>
