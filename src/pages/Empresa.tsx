@@ -8,14 +8,14 @@ const Empresa = () => {
   // Tus 8 imágenes
   const images = [
     "./Galeria/empresa9.jpg",
-    "./Galeria/empresa2.jpg",
-    "./Galeria/empresa3.jpg",
-    "./Galeria/empresa4.jpg",
-    "./Galeria/empresa5.jpg",
-    "./Galeria/empresa6.jpg",
-    "./Galeria/empresa7.jpg",
-    "./Galeria/empresa8.jpg",
-    "./Galeria/empresa1.jpg",
+    "./Galeria/empresa2.jpeg",
+    "./Galeria/empresa3.jpeg",
+    "./Galeria/empresa4.jpeg",
+    "./Galeria/empresa5.jpeg",
+    "./Galeria/empresa6.jpeg",
+    "./Galeria/empresa7.jpeg",
+    "./Galeria/empresa8.jpeg",
+    "./Galeria/empresa1.jpeg",
   ];
 
   const [current, setCurrent] = useState(0);

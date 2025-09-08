@@ -5,10 +5,10 @@ import { useState, useEffect } from "react";
 const HeroSection = () => {
   // Array con los nombres de las imágenes (para el fondo principal)
   const slides = [
-    "./Galeria/slider1.jpg",
+    "./Galeria/slider1.png",
     "./Galeria/slider2.jpg",
     "./Galeria/slider3.jpg",
-    "./Galeria/slider4.jpg"
+    "./Galeria/slider4.png"
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -41,12 +41,12 @@ const HeroSection = () => {
   ];
   const clienteImages = [
     "./Galeria/clientes1.jpg",
-    "./Galeria/clientes2.jpg",
+    "./Galeria/clientes2.jpeg",
     "./Galeria/clientes3.jpg"
   ];
   const terapeutaImages = [
-    "./Galeria/Terapeuta1.jpg",
-    "./Galeria/Terapeuta2.jpg",
+    "./Galeria/Terapeuta1.jpeg",
+    "./Galeria/Terapeuta2.jpeg",
     "./Galeria/Terapeuta3.jpg"
   ];
 
@@ -78,7 +78,7 @@ const HeroSection = () => {
             <div className="text-center lg:text-left">
               <div className="mb-6 flex justify-center lg:justify-start">
                 <img
-                  src="./Galeria/imagenhero.jpg"   // ✅ logo desde public
+                  src="./Galeria/imagenhero.png"   // ✅ logo desde public
                   alt="Un mundo de privilegios a su alcance"
                   className="h-32 w-auto object-contain"
                 />
