@@ -99,7 +99,7 @@ const Bienestar = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="./Galeria/aromaterpia.jpg" 
+                          src="./Galeria/aromaterapia.jpg" 
                           alt="Aromaterapia - Relajación con aceites esenciales"
                           className="w-64 h-80 object-cover rounded-lg"
                           loading="lazy"
