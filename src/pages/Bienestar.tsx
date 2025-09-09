@@ -83,7 +83,7 @@ const Bienestar = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="./Galeria/fotos3.jpg" 
+                          src="./Galeria/yoga.jpg" 
                           alt="Yoga - Equilibrio y bienestar integral"
                           className="w-64 h-80 object-cover rounded-lg"
                           loading="lazy"
@@ -99,7 +99,7 @@ const Bienestar = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="./Galeria/fotos2.jpg" 
+                          src="./Galeria/aromaterpia.jpg" 
                           alt="Aromaterapia - Relajación con aceites esenciales"
                           className="w-64 h-80 object-cover rounded-lg"
                           loading="lazy"
