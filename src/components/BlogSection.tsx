@@ -4,15 +4,15 @@ const BlogSection = () => {
   const blogPosts = [
     {
       id: 1,
-      image: "./Galeria/fotos1.jpg",
+      image: "/medescuento-renewed-web/Galeria/fotos1.jpg",
     },
     {
       id: 2,
-      image: "./Galeria/fotos2.jpg",
+      image: "/medescuento-renewed-web/Galeria/fotos2.jpg",
     },
     {
       id: 3,
-      image: "./Galeria/fotos3.jpg",
+      image: "/medescuento-renewed-web/Galeria/fotos3.jpg",
     }
   ];
 

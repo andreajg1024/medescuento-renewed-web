@@ -105,7 +105,7 @@ const Servicios = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="./Galeria/olivos3.png" 
+                          src="/medescuento-renewed-web/Galeria/olivos3.png" 
                           alt="Los Olivos"
                           className="w-full h-48 object-cover"
                           loading="lazy"
@@ -115,7 +115,7 @@ const Servicios = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
                         <img 
-                          src="./Galeria/renacer.jpg" 
+                          src="/medescuento-renewed-web/Galeria/renacer.jpg" 
                           alt="Jardines de Renacer"
                           className="w-full h-48 object-cover"
                           loading="lazy"
@@ -131,7 +131,7 @@ const Servicios = () => {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0 flex justify-center">
                         <img 
-                          src="./Galeria/guiamedica.jpg" 
+                          src="/medescuento-renewed-web/Galeria/guiamedica.jpg" 
                           alt="Guía Médica - Contamos con más de 2.000 prestadores de servicios de salud"
                           className="w-full h-auto object-cover"
                           loading="lazy"
@@ -145,7 +145,7 @@ const Servicios = () => {
                 {index === 2 && (
                   <div className="mt-8 mb-4 flex justify-center">
                     <img 
-                    src="./Galeria/capacitacion.jpg" 
+                    src="/medescuento-renewed-web/Galeria/capacitacion.jpg" 
                     alt="Capacitación con énfasis en Coaching"
                     className="w-64 h-80 object-cover rounded-lg"
                     loading="lazy"
@@ -157,7 +157,7 @@ const Servicios = () => {
                 {index === 3 && (
                   <div className="mt-8 mb-4 flex justify-center">
                     <img 
-                    src="./Galeria/pausa.jpg" 
+                    src="/medescuento-renewed-web/Galeria/pausa.jpg" 
                     alt="Pausas Activas Físicas y Mentales"
                     className="w-64 h-80 object-cover rounded-lg"
                     loading="lazy"
@@ -168,7 +168,7 @@ const Servicios = () => {
                 {index === 4 && (
                     <div className="mt-8 mb-4 flex justify-center">
                         <img 
-                        src="./Galeria/consultoria.jpg" 
+                        src="/medescuento-renewed-web/Galeria/consultoria.jpg" 
                         alt="Consultorías Empresariales"
                         className="w-64 h-80 object-cover rounded-lg"
                         loading="lazy"

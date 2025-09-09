@@ -5,10 +5,10 @@ import { useState, useEffect } from "react";
 const HeroSection = () => {
   // Array con los nombres de las imágenes (para el fondo principal)
   const slides = [
-    "./Galeria/slider1.png",
-    "./Galeria/slider2.jpg",
-    "./Galeria/slider3.jpg",
-    "./Galeria/slider4.png"
+    "/medescuento-renewed-web/Galeria/slider1.png",
+    "/medescuento-renewed-web/Galeria/slider2.jpg",
+    "/medescuento-renewed-web/Galeria/slider3.jpg",
+    "/medescuento-renewed-web/Galeria/slider4.png"
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -35,19 +35,19 @@ const HeroSection = () => {
 
   // Arrays de imágenes para los cuadros
   const promoImages = [
-    "./Galeria/mascotas1.jpg",
-    "./Galeria/mascotas2.jpg",
-    "./Galeria/mascotas3.jpg"
+    "/medescuento-renewed-web/Galeria/mascotas1.jpg",
+    "/medescuento-renewed-web/Galeria/mascotas2.jpg",
+    "/medescuento-renewed-web/Galeria/mascotas3.jpg"
   ];
   const clienteImages = [
-    "./Galeria/clientes1.jpg",
-    "./Galeria/clientes2.jpeg",
-    "./Galeria/clientes3.jpg"
+    "/medescuento-renewed-web/Galeria/clientes1.jpg",
+    "/medescuento-renewed-web/Galeria/clientes2.jpeg",
+    "/medescuento-renewed-web/Galeria/clientes3.jpg"
   ];
   const terapeutaImages = [
-    "./Galeria/Terapeuta1.jpeg",
-    "./Galeria/Terapeuta2.jpeg",
-    "./Galeria/Terapeuta3.jpg"
+    "/medescuento-renewed-web/Galeria/Terapeuta1.jpeg",
+    "/medescuento-renewed-web/Galeria/Terapeuta2.jpeg",
+    "/medescuento-renewed-web/Galeria/Terapeuta3.jpg"
   ];
 
   // Imagen actual de cada carrusel
@@ -78,7 +78,7 @@ const HeroSection = () => {
             <div className="text-center lg:text-left">
               <div className="mb-6 flex justify-center lg:justify-start">
                 <img
-                  src="./Galeria/imagenhero.png"   // ✅ logo desde public
+                  src="/medescuento-renewed-web/Galeria/imagenhero.png"   // ✅ logo desde public
                   alt="Un mundo de privilegios a su alcance"
                   className="h-32 w-auto object-contain"
                 />
