@@ -53,28 +53,62 @@ const Bienestar = () => {
           {/* Activities Grid */}
           <div className="grid gap-8">
             {activities.map((activity, index) => (
-              <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-                <CardHeader className="bg-[#43d9cb]">
-                  <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800">
-                    <activity.icon className="w-8 h-8" />
-                    {activity.title}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <p className="text-lg leading-relaxed mb-6 font-bold text-black-700">
-                    {activity.description}
-                  </p>
-                  <div className="grid md:grid-cols-2 gap-3">
-                    <h4 className="font-semibold font-bold text-green-800 mb-3 md:col-span-2">Beneficios:</h4>
-                    {activity.benefits.map((benefit, benefitIndex) => (
-                      <div key={benefitIndex} className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                        <span className="font-bold text-black-700">{benefit}</span>
-                      </div>
-                    ))}
+              <div key={index}>
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+                  <CardHeader className="bg-[#43d9cb]">
+                    <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800">
+                      <activity.icon className="w-8 h-8" />
+                      {activity.title}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="p-6">
+                    <p className="text-lg leading-relaxed mb-6 font-bold text-black-700">
+                      {activity.description}
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-3">
+                      <h4 className="font-semibold font-bold text-green-800 mb-3 md:col-span-2">Beneficios:</h4>
+                      {activity.benefits.map((benefit, benefitIndex) => (
+                        <div key={benefitIndex} className="flex items-center gap-2">
+                          <div className="w-2 h-2 bg-green-600 rounded-full"></div>
+                          <span className="font-bold text-black-700">{benefit}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Image for YOGA */}
+                {index === 0 && (
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="./Galeria/fotos1.jpg" 
+                          alt="Yoga - Equilibrio y bienestar integral"
+                          className="w-64 h-80 object-cover rounded-lg"
+                          loading="lazy"
+                        />
+                      </CardContent>
+                    </Card>
                   </div>
-                </CardContent>
-              </Card>
+                )}
+
+                {/* Image for AROMATERAPIA */}
+                {index === 1 && (
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="./Galeria/fotos2.jpg" 
+                          alt="Aromaterapia - Relajación con aceites esenciales"
+                          className="w-64 h-80 object-cover rounded-lg"
+                          loading="lazy"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+              </div>
             ))}
           </div>
 
