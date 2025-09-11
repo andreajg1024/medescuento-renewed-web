@@ -108,6 +108,54 @@ const Bienestar = () => {
                     </Card>
                   </div>
                 )}
+
+                {/* Image for RUMBATERAPIA */}
+                {index === 2 && (
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="/medescuento-renewed-web/Galeria/rumbaterapia.jpg" 
+                          alt="Rumbaterapia - Diversión y ejercicio al ritmo de la música"
+                          className="w-64 h-80 object-cover rounded-lg"
+                          loading="lazy"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {/* Image for HORA LOCA */}
+                {index === 3 && (
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="/medescuento-renewed-web/Galeria/horaloca.jpg" 
+                          alt="Hora Loca - Diversión y celebración"
+                          className="w-64 h-80 object-cover rounded-lg"
+                          loading="lazy"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {/* Image for VIDA ACTIVA */}
+                {index === 4 && (
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                          src="/medescuento-renewed-web/Galeria/vidaactiva.jpg" 
+                          alt="Vida Activa - Bienestar para cuerpo y mente"
+                          className="w-64 h-80 object-cover rounded-lg"
+                          loading="lazy"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
               </div>
             ))}
           </div>
