@@ -149,7 +149,7 @@ const Bienestar = () => {
                         <img 
                           src="/medescuento-renewed-web/Galeria/vidaactiva.jpg" 
                           alt="Vida Activa - Bienestar para cuerpo y mente"
-                          className="w-64 h-80 object-cover rounded-lg"
+                          className="w-64 h-90 object-cover rounded-lg"
                           loading="lazy"
                         />
                       </CardContent>
