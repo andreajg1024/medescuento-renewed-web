@@ -98,39 +98,39 @@ const HeroSection = () => {
             {/* Service Cards + Mapa */}
             <div className="grid md:grid-cols-4 gap-6">
               {/* Promoción */}
-              <Card className="p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden">
+              <Card className="p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-48 md:h-56">
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${promoImage})` }}
                 ></div>
-                <div className="relative z-10 bg-pink-500/60 p-4 rounded-lg">
-                  <h3 className="text-xl font-bold mb-2">Nuestras Mascotas</h3>
-                  <p className="text-sm"></p>
+                <div className="relative z-10 bg-pink-500/60 p-3 md:p-4 rounded-lg h-full flex flex-col justify-center">
+                  <h3 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Nuestras Mascotas</h3>
+                  <p className="text-xs md:text-sm"></p>
                 </div>
               </Card>
 
               {/* Clientes Satisfechos */}
-              <Card className="p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden">
+              <Card className="p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-48 md:h-56">
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${clienteImage})` }}
                 ></div>
-                <div className="relative z-10 bg-green-500/50 p-4 rounded-lg">
-                  <h3 className="text-xl font-bold mb-2">
+                <div className="relative z-10 bg-green-500/50 p-3 md:p-4 rounded-lg h-full flex flex-col justify-center">
+                  <h3 className="text-lg md:text-xl font-bold mb-1 md:mb-2">
                     Clientes Satisfechos
                   </h3>
                 </div>
               </Card>
 
               {/* Terapeuta */}
-              <Card className="p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden">
+              <Card className="p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-48 md:h-56">
                 <div
                 className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                 style={{ backgroundImage: `url(${terapeutaImage})` }}
                 ></div>
-                <div className="relative z-10 bg-blue-500/40 p-4 rounded-lg">
-                <h3 className="text-xl font-bold mb-2">Terapias Holisticas</h3>
-                <p className="text-sm">
+                <div className="relative z-10 bg-blue-500/40 p-3 md:p-4 rounded-lg h-full flex flex-col justify-center">
+                <h3 className="text-lg md:text-xl font-bold mb-1 md:mb-2">Terapias Holisticas</h3>
+                <p className="text-xs md:text-sm">
                   Ansiedad, depresión, estrés, insomnio y duelo.
                   </p>
                   </div>

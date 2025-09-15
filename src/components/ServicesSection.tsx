@@ -25,23 +25,23 @@ const ServicesSection = () => {
           
           {/* Stats Ovals */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            <div className="bg-[#43d9cb] text-black px-6 py-4 rounded-full text-center">
-              <span className="font-bold text-sm">12 AÑOS DE EXPERIENCIA</span>
+            <div className="bg-[#43d9cb] text-white px-6 py-4 rounded-full text-center">
+              <span className="font-bold text-lg">12 AÑOS DE EXPERIENCIA</span>
             </div>
-            <div className="bg-[#43d9cb] text-black px-6 py-4 rounded-full text-center">
-              <span className="font-bold text-sm">MÁS DE 6000 AFILIADOS</span>
+            <div className="bg-[#43d9cb] text-white px-6 py-4 rounded-full text-center">
+              <span className="font-bold text-lg">MÁS DE 6000 AFILIADOS</span>
             </div>
-            <div className="bg-[#43d9cb] text-black px-6 py-4 rounded-full text-center">
-              <span className="font-bold text-sm">MÁS DE 2000 CONVENIOS, ESTRATEGIAS A NIVEL NACIONAL</span>
+            <div className="bg-[#43d9cb] text-white px-6 py-4 rounded-full text-center">
+              <span className="font-bold text-lg">MÁS DE 2000 CONVENIOS, ESTRATEGIAS A NIVEL NACIONAL</span>
             </div>
-            <div className="bg-[#43d9cb] text-black px-6 py-4 rounded-full text-center">
-              <span className="font-bold text-sm">10 CIUDADES CON COBERTURA</span>
+            <div className="bg-[#43d9cb] text-white px-6 py-4 rounded-full text-center">
+              <span className="font-bold text-lg">10 CIUDADES CON COBERTURA</span>
             </div>
-            <div className="bg-[#43d9cb] text-black px-6 py-4 rounded-full text-center">
-              <span className="font-bold text-sm">MÁS DE 300 MASCOTAS AFILIADAS</span>
+            <div className="bg-[#43d9cb] text-white px-6 py-4 rounded-full text-center">
+              <span className="font-bold text-lg">MÁS DE 300 MASCOTAS AFILIADAS</span>
             </div>
-            <div className="bg-[#43d9cb] text-black px-6 py-4 rounded-full text-center">
-              <span className="font-bold text-sm">2 EMPRESAS EXEQUIALES (OLIVOS Y RENACER)</span>
+            <div className="bg-[#43d9cb] text-white px-6 py-4 rounded-full text-center">
+              <span className="font-bold text-lg">2 EMPRESAS EXEQUIALES (OLIVOS Y RENACER)</span>
             </div>
           </div>
         </div>

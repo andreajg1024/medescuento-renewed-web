@@ -143,38 +143,79 @@ const Servicios = () => {
 
                 {/* Images for other services */}
                 {index === 2 && (
-                  <div className="mt-8 mb-4 flex justify-center">
-                    <img 
-                    src="/medescuento-renewed-web/Galeria/capacitacion.jpg" 
-                    alt="Capacitación con énfasis en Coaching"
-                    className="w-64 h-80 object-cover rounded-lg"
-                    loading="lazy"
-                    />
-                    </div>
-
+                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                        src="/medescuento-renewed-web/Galeria/capacitacion.jpg" 
+                        alt="Capacitación con énfasis en Coaching"
+                        className="w-full h-48 object-cover"
+                        loading="lazy"
+                        />
+                      </CardContent>
+                    </Card>
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                        src="/medescuento-renewed-web/Galeria/empresa1.jpeg" 
+                        alt="Capacitación empresarial"
+                        className="w-full h-48 object-cover"
+                        loading="lazy"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
                 )}
 
                 {index === 3 && (
-                  <div className="mt-8 mb-4 flex justify-center">
-                    <img 
-                    src="/medescuento-renewed-web/Galeria/pausa.jpg" 
-                    alt="Pausas Activas Físicas y Mentales"
-                    className="w-64 h-80 object-cover rounded-lg"
-                    loading="lazy"
-                    />
-                    </div>
-                    )}
-
-                {index === 4 && (
-                    <div className="mt-8 mb-4 flex justify-center">
+                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
                         <img 
-                        src="/medescuento-renewed-web/Galeria/consultoria.jpg" 
-                        alt="Consultorías Empresariales"
-                        className="w-64 h-80 object-cover rounded-lg"
+                        src="/medescuento-renewed-web/Galeria/pausa.jpg" 
+                        alt="Pausas Activas Físicas y Mentales"
+                        className="w-full h-48 object-cover"
                         loading="lazy"
                         />
-                        </div>
-                      )}
+                      </CardContent>
+                    </Card>
+                    <Card className="overflow-hidden">
+                      <CardContent className="p-0">
+                        <img 
+                        src="/medescuento-renewed-web/Galeria/empresa2.jpeg" 
+                        alt="Pausas activas en empresa"
+                        className="w-full h-48 object-cover"
+                        loading="lazy"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {index === 4 && (
+                    <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                          src="/medescuento-renewed-web/Galeria/consultoria.jpg" 
+                          alt="Consultorías Empresariales"
+                          className="w-full h-48 object-cover"
+                          loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                          src="/medescuento-renewed-web/Galeria/empresa3.jpeg" 
+                          alt="Consultoría empresarial"
+                          className="w-full h-48 object-cover"
+                          loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
+                  )}
               </div>
             ))}
           </div>
