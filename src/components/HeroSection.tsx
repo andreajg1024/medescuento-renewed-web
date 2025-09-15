@@ -3,7 +3,6 @@ import { Card } from "@/components/ui/card";
 import { useState, useEffect } from "react";
 
 const HeroSection = () => {
-  // Array con los nombres de las imágenes (para el fondo principal)
   const slides = [
     "/medescuento-renewed-web/Galeria/slider1.png",
     "/medescuento-renewed-web/Galeria/slider2.jpg",
@@ -13,15 +12,13 @@ const HeroSection = () => {
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // Carrusel automático de fondo
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 4000); // Cambia cada 4 segundos
+    }, 4000);
     return () => clearInterval(interval);
   }, [slides.length]);
 
-  // Hook para carrusel interno (cada cuadro)
   const useCarousel = (images, intervalTime = 3000) => {
     const [index, setIndex] = useState(0);
     useEffect(() => {
@@ -33,7 +30,6 @@ const HeroSection = () => {
     return images[index];
   };
 
-  // Arrays de imágenes para los cuadros
   const promoImages = [
     "/medescuento-renewed-web/Galeria/mascotas1.jpg",
     "/medescuento-renewed-web/Galeria/mascotas2.jpg",
@@ -50,14 +46,12 @@ const HeroSection = () => {
     "/medescuento-renewed-web/Galeria/Terapeuta3.jpg"
   ];
 
-  // Imagen actual de cada carrusel
   const promoImage = useCarousel(promoImages);
   const clienteImage = useCarousel(clienteImages);
   const terapeutaImage = useCarousel(terapeutaImages);
 
   return (
     <section className="bg-gradient-hero min-h-[60vh] py-8 md:py-16 relative overflow-hidden">
-      {/* Background Carousel Automático */}
       <div className="absolute inset-0 z-0">
         {slides.map((slide, index) => (
           <div
@@ -77,13 +71,11 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-3 gap-8 items-center">
-          {/* Left side - Main content */}
           <div className="lg:col-span-3 space-y-8">
-            {/* Logo */}
             <div className="text-center lg:text-left">
               <div className="mb-6 flex justify-center lg:justify-start">
                 <img
-                  src="/medescuento-renewed-web/Galeria/imagenhero.png"   // ✅ logo desde public
+                  src="/medescuento-renewed-web/Galeria/imagenhero.png"
                   alt="Un mundo de privilegios a su alcance"
                   className="h-32 w-auto object-contain"
                 />
@@ -103,7 +95,7 @@ const HeroSection = () => {
             {/* Service Cards + Mapa */}
             <div className="grid md:grid-cols-4 gap-4 md:gap-6">
               {/* Promoción */}
-              <Card className="p-1 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-40 md:h-56">
+              <Card className="p-1 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-48 md:h-64">
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${promoImage})` }}
@@ -114,7 +106,7 @@ const HeroSection = () => {
               </Card>
 
               {/* Clientes Satisfechos */}
-              <Card className="p-1 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-40 md:h-56">
+              <Card className="p-1 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-48 md:h-64">
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${clienteImage})` }}
@@ -127,7 +119,7 @@ const HeroSection = () => {
               </Card>
 
               {/* Terapeuta */}
-              <Card className="p-1 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-40 md:h-56">
+              <Card className="p-1 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-48 md:h-64">
                 <div
                 className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                 style={{ backgroundImage: `url(${terapeutaImage})` }}
@@ -136,14 +128,14 @@ const HeroSection = () => {
                 <h3 className="text-xs md:text-lg font-bold text-white">Terapias Holísticas</h3>
                 <p className="text-xs md:text-sm text-white mt-1">
                   Ansiedad, depresión, estrés, insomnio y duelo.
-                  </p>
-                  </div>
-                  </Card>
+                </p>
+                </div>
+              </Card>
 
               {/* Mapa */}
-              <Card className="bg-hero-bg/80 border-accent border-2 p-6 text-black text-center hover:scale-105 transition-transform">
-                <h3 className="text-xl font-bold mb-4">Nuestra Ubicación</h3>
-                <div className="h-32 mb-4 rounded-lg overflow-hidden">
+              <Card className="bg-hero-bg/80 border-accent border-2 p-4 text-black text-center hover:scale-105 transition-transform h-48 md:h-64">
+                <h3 className="text-lg font-bold mb-2">Nuestra Ubicación</h3>
+                <div className="h-full rounded-lg overflow-hidden">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.1942622415304!2d-75.65653328939742!3d4.559058242849977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5f16926682d%3A0xa603f0d7104df83f!2sMEDescuento!5e0!3m2!1ses!2sco!4v1755476797875!5m2!1ses!2sco"
                     width="100%"
@@ -155,7 +147,6 @@ const HeroSection = () => {
                     className="rounded-lg"
                   ></iframe>
                 </div>
-                <p className="opacity-90">Búscanos en la sección Contacto</p>
               </Card>
             </div>
           </div>
