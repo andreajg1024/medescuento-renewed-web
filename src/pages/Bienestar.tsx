@@ -198,7 +198,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/vidaactiva.jpg" 
                             alt="Vida Activa - Bienestar para cuerpo y mente"
-                            className="w-full h-48 object-cover object-top"
+                            className="w-full h-52 object-cover object-top"
                             loading="lazy"
                           />
                         </CardContent>
@@ -208,7 +208,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/empresa5.jpeg" 
                             alt="Programa vida activa para adultos"
-                            className="w-full h-70 object-cover"
+                            className="w-full h-52 object-cover"
                             loading="lazy"
                           />
                         </CardContent>
