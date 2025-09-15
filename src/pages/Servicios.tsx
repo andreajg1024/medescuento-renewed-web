@@ -101,119 +101,129 @@ const Servicios = () => {
                 
                 {/* Images for specific services */}
                 {index === 0 && (
-                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/olivos3.png" 
-                          alt="Los Olivos"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/renacer.jpg" 
-                          alt="Jardines de Renacer"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/olivos3.png" 
+                            alt="Los Olivos"
+                            className="w-full h-48 object-contain bg-white"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/renacer.jpg" 
+                            alt="Jardines de Renacer"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
                   </div>
                 )}
                 
                 {/* Medical Guide Image after Plan Complementario de Salud */}
                 {index === 1 && (
-                  <div className="mt-8 mb-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0 flex justify-center">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/guiamedica.jpg" 
-                          alt="Guía Médica - Contamos con más de 2.000 prestadores de servicios de salud"
-                          className="w-full h-auto object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <div className="max-w-3xl w-full">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/guiamedica.jpg" 
+                            alt="Guía Médica - Contamos con más de 2.000 prestadores de servicios de salud"
+                            className="w-full h-auto object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
                   </div>
                 )}
 
                 {/* Images for other services */}
                 {index === 2 && (
-                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                        src="/medescuento-renewed-web/Galeria/capacitacion.jpg" 
-                        alt="Capacitación con énfasis en Coaching"
-                        className="w-full h-48 object-cover"
-                        loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                        src="/medescuento-renewed-web/Galeria/empresa1.jpeg" 
-                        alt="Capacitación empresarial"
-                        className="w-full h-48 object-cover"
-                        loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                          src="/medescuento-renewed-web/Galeria/capacitacion.jpg" 
+                          alt="Capacitación con énfasis en Coaching"
+                          className="w-full h-48 object-cover"
+                          loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                          src="/medescuento-renewed-web/Galeria/empresa1.jpeg" 
+                          alt="Capacitación empresarial"
+                          className="w-full h-48 object-cover"
+                          loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
                   </div>
                 )}
 
                 {index === 3 && (
-                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                        src="/medescuento-renewed-web/Galeria/pausa.jpg" 
-                        alt="Pausas Activas Físicas y Mentales"
-                        className="w-full h-48 object-cover"
-                        loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                        src="/medescuento-renewed-web/Galeria/empresa2.jpeg" 
-                        alt="Pausas activas en empresa"
-                        className="w-full h-48 object-cover"
-                        loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                          src="/medescuento-renewed-web/Galeria/pausa.jpg" 
+                          alt="Pausas Activas Físicas y Mentales"
+                          className="w-full h-48 object-cover"
+                          loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                          src="/medescuento-renewed-web/Galeria/empresa2.jpeg" 
+                          alt="Pausas activas en empresa"
+                          className="w-full h-48 object-cover"
+                          loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
                   </div>
                 )}
 
                 {index === 4 && (
-                    <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
-                      <Card className="overflow-hidden">
-                        <CardContent className="p-0">
-                          <img 
-                          src="/medescuento-renewed-web/Galeria/consultoria.jpg" 
-                          alt="Consultorías Empresariales"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                          />
-                        </CardContent>
-                      </Card>
-                      <Card className="overflow-hidden">
-                        <CardContent className="p-0">
-                          <img 
-                          src="/medescuento-renewed-web/Galeria/empresa3.jpeg" 
-                          alt="Consultoría empresarial"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                          />
-                        </CardContent>
-                      </Card>
+                    <div className="mt-8 mb-4 flex justify-center">
+                      <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
+                        <Card className="overflow-hidden">
+                          <CardContent className="p-0">
+                            <img 
+                            src="/medescuento-renewed-web/Galeria/consultoria.jpg" 
+                            alt="Consultorías Empresariales"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                            />
+                          </CardContent>
+                        </Card>
+                        <Card className="overflow-hidden">
+                          <CardContent className="p-0">
+                            <img 
+                            src="/medescuento-renewed-web/Galeria/empresa3.jpeg" 
+                            alt="Consultoría empresarial"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                            />
+                          </CardContent>
+                        </Card>
+                      </div>
                     </div>
                   )}
               </div>

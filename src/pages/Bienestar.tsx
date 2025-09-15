@@ -79,131 +79,141 @@ const Bienestar = () => {
 
                 {/* Image for YOGA */}
                 {index === 0 && (
-                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/yoga.jpg" 
-                          alt="Yoga - Equilibrio y bienestar integral"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/fotos1.jpg" 
-                          alt="Práctica de yoga en grupo"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/yoga.jpg" 
+                            alt="Yoga - Equilibrio y bienestar integral"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/fotos1.jpg" 
+                            alt="Práctica de yoga en grupo"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
                   </div>
                 )}
 
                 {/* Image for AROMATERAPIA */}
                 {index === 1 && (
-                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/aromaterapia.jpg" 
-                          alt="Aromaterapia - Relajación con aceites esenciales"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/fotos2.jpg" 
-                          alt="Sesión de aromaterapia"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/aromaterapia.jpg" 
+                            alt="Aromaterapia - Relajación con aceites esenciales"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/fotos2.jpg" 
+                            alt="Sesión de aromaterapia"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
                   </div>
                 )}
 
                 {/* Image for RUMBATERAPIA */}
                 {index === 2 && (
-                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/rumbaterapia.jpg" 
-                          alt="Rumbaterapia - Diversión y ejercicio al ritmo de la música"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/fotos3.jpg" 
-                          alt="Clase de rumbaterapia grupal"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/rumbaterapia.jpg" 
+                            alt="Rumbaterapia - Diversión y ejercicio al ritmo de la música"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/fotos3.jpg" 
+                            alt="Clase de rumbaterapia grupal"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
                   </div>
                 )}
 
                 {/* Image for HORA LOCA */}
                 {index === 3 && (
-                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/horaloca.jpg" 
-                          alt="Hora Loca - Diversión y celebración"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/empresa4.jpeg" 
-                          alt="Celebración hora loca empresarial"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/horaloca.jpg" 
+                            alt="Hora Loca - Diversión y celebración"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/empresa4.jpeg" 
+                            alt="Celebración hora loca empresarial"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
                   </div>
                 )}
 
                 {/* Image for VIDA ACTIVA */}
                 {index === 4 && (
-                  <div className="mt-8 mb-4 grid md:grid-cols-2 gap-4">
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/vidaactiva.jpg" 
-                          alt="Vida Activa - Bienestar para cuerpo y mente"
-                          className="w-full h-48 object-cover object-center"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
-                    <Card className="overflow-hidden">
-                      <CardContent className="p-0">
-                        <img 
-                          src="/medescuento-renewed-web/Galeria/empresa5.jpeg" 
-                          alt="Programa vida activa para adultos"
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                      </CardContent>
-                    </Card>
+                  <div className="mt-8 mb-4 flex justify-center">
+                    <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/vidaactiva.jpg" 
+                            alt="Vida Activa - Bienestar para cuerpo y mente"
+                            className="w-full h-48 object-cover object-top"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                      <Card className="overflow-hidden">
+                        <CardContent className="p-0">
+                          <img 
+                            src="/medescuento-renewed-web/Galeria/empresa5.jpeg" 
+                            alt="Programa vida activa para adultos"
+                            className="w-full h-48 object-cover"
+                            loading="lazy"
+                          />
+                        </CardContent>
+                      </Card>
+                    </div>
                   </div>
                 )}
               </div>

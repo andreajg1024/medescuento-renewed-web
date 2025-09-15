@@ -103,39 +103,38 @@ const HeroSection = () => {
             {/* Service Cards + Mapa */}
             <div className="grid md:grid-cols-4 gap-4 md:gap-6">
               {/* Promoción */}
-              <Card className="p-2 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-40 md:h-56">
+              <Card className="p-1 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-40 md:h-56">
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${promoImage})` }}
                 ></div>
-                <div className="relative z-10 bg-pink-500/60 p-2 md:p-4 rounded-lg flex flex-col justify-start md:justify-center h-full">
-                  <h3 className="text-sm md:text-xl font-bold mb-1 md:mb-2">Nuestras Mascotas</h3>
-                  <p className="text-xs md:text-sm"></p>
+                <div className="relative z-10 bg-pink-500/70 px-2 py-1 md:px-3 md:py-2 rounded-lg inline-block mt-1 md:mt-2">
+                  <h3 className="text-xs md:text-lg font-bold text-white">Nuestras Mascotas</h3>
                 </div>
               </Card>
 
               {/* Clientes Satisfechos */}
-              <Card className="p-2 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-40 md:h-56">
+              <Card className="p-1 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-40 md:h-56">
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${clienteImage})` }}
                 ></div>
-                <div className="relative z-10 bg-green-500/50 p-2 md:p-4 rounded-lg flex flex-col justify-start md:justify-center h-full">
-                  <h3 className="text-sm md:text-xl font-bold mb-1 md:mb-2">
+                <div className="relative z-10 bg-green-500/70 px-2 py-1 md:px-3 md:py-2 rounded-lg inline-block mt-1 md:mt-2">
+                  <h3 className="text-xs md:text-lg font-bold text-white">
                     Clientes Satisfechos
                   </h3>
                 </div>
               </Card>
 
               {/* Terapeuta */}
-              <Card className="p-2 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-40 md:h-56">
+              <Card className="p-1 md:p-3 text-black text-center hover:scale-105 transition-transform relative overflow-hidden h-40 md:h-56">
                 <div
                 className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                 style={{ backgroundImage: `url(${terapeutaImage})` }}
                 ></div>
-                <div className="relative z-10 bg-blue-500/40 p-2 md:p-4 rounded-lg flex flex-col justify-start md:justify-center h-full">
-                <h3 className="text-sm md:text-xl font-bold mb-1 md:mb-2">Terapias Holísticas</h3>
-                <p className="text-xs md:text-sm">
+                <div className="relative z-10 bg-blue-500/70 px-2 py-1 md:px-3 md:py-2 rounded-lg inline-block mt-1 md:mt-2">
+                <h3 className="text-xs md:text-lg font-bold text-white">Terapias Holísticas</h3>
+                <p className="text-xs md:text-sm text-white mt-1">
                   Ansiedad, depresión, estrés, insomnio y duelo.
                   </p>
                   </div>
