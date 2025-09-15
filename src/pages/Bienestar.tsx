@@ -86,7 +86,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/yoga.jpg" 
                             alt="Yoga - Equilibrio y bienestar integral"
-                            className="w-full h-48 object-cover"
+                            className="w-full h-52 object-cover"
                             loading="lazy"
                           />
                         </CardContent>
@@ -96,7 +96,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/fotos1.jpg" 
                             alt="Práctica de yoga en grupo"
-                            className="w-full h-48 object-cover"
+                            className="w-full h-52 object-cover"
                             loading="lazy"
                           />
                         </CardContent>
@@ -114,7 +114,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/aromaterapia.jpg" 
                             alt="Aromaterapia - Relajación con aceites esenciales"
-                            className="w-full h-48 object-cover"
+                            className="w-full h-52 object-cover"
                             loading="lazy"
                           />
                         </CardContent>
@@ -124,7 +124,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/fotos2.jpg" 
                             alt="Sesión de aromaterapia"
-                            className="w-full h-48 object-cover"
+                            className="w-full h-52 object-cover"
                             loading="lazy"
                           />
                         </CardContent>
@@ -142,7 +142,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/rumbaterapia.jpg" 
                             alt="Rumbaterapia - Diversión y ejercicio al ritmo de la música"
-                            className="w-full h-48 object-cover"
+                            className="w-full h-52 object-cover"
                             loading="lazy"
                           />
                         </CardContent>
@@ -152,7 +152,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/fotos3.jpg" 
                             alt="Clase de rumbaterapia grupal"
-                            className="w-full h-48 object-cover"
+                            className="w-full h-52 object-cover"
                             loading="lazy"
                           />
                         </CardContent>
@@ -170,7 +170,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/horaloca.jpg" 
                             alt="Hora Loca - Diversión y celebración"
-                            className="w-full h-48 object-cover"
+                            className="w-full h-52 object-cover"
                             loading="lazy"
                           />
                         </CardContent>
@@ -180,7 +180,7 @@ const Bienestar = () => {
                           <img 
                             src="/medescuento-renewed-web/Galeria/empresa4.jpeg" 
                             alt="Celebración hora loca empresarial"
-                            className="w-full h-48 object-cover"
+                            className="w-full h-52 object-cover"
                             loading="lazy"
                           />
                         </CardContent>
