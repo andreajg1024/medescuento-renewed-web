@@ -94,7 +94,7 @@ const Bienestar = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                            src="/medescuento-renewed-web/Galeria/fotos1.jpg" 
+                            src="/medescuento-renewed-web/Galeria/yoga2.jpg" 
                             alt="Práctica de yoga en grupo"
                             className="w-full h-52 object-cover"
                             loading="lazy"
@@ -122,7 +122,7 @@ const Bienestar = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                            src="/medescuento-renewed-web/Galeria/fotos2.jpg" 
+                            src="/medescuento-renewed-web/Galeria/aromaterapia2.jpg" 
                             alt="Sesión de aromaterapia"
                             className="w-full h-52 object-cover"
                             loading="lazy"
@@ -140,7 +140,7 @@ const Bienestar = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                            src="/medescuento-renewed-web/Galeria/rumbaterapia.jpg" 
+                            src="/medescuento-renewed-web/Galeria/rumbaterapia3.jpg" 
                             alt="Rumbaterapia - Diversión y ejercicio al ritmo de la música"
                             className="w-full h-52 object-cover"
                             loading="lazy"
@@ -150,7 +150,7 @@ const Bienestar = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                            src="/medescuento-renewed-web/Galeria/fotos3.jpg" 
+                            src="/medescuento-renewed-web/Galeria/rumbaterapia.jpg" 
                             alt="Clase de rumbaterapia grupal"
                             className="w-full h-52 object-cover"
                             loading="lazy"
@@ -178,7 +178,7 @@ const Bienestar = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                            src="/medescuento-renewed-web/Galeria/empresa4.jpeg" 
+                            src="/medescuento-renewed-web/Galeria/horaloca2.jpg" 
                             alt="Celebración hora loca empresarial"
                             className="w-full h-52 object-cover"
                             loading="lazy"
@@ -206,7 +206,7 @@ const Bienestar = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                            src="/medescuento-renewed-web/Galeria/empresa5.jpeg" 
+                            src="/medescuento-renewed-web/Galeria/vidaactiva2.jpg" 
                             alt="Programa vida activa para adultos"
                             className="w-full h-52 object-cover"
                             loading="lazy"
