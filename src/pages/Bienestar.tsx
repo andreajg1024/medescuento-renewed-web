@@ -140,7 +140,7 @@ const Bienestar = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                            src="/medescuento-renewed-web/Galeria/rumbaterapia3.jpg" 
+                            src="/medescuento-renewed-web/Galeria/rumbaterapia2.jpg" 
                             alt="Rumbaterapia - Diversión y ejercicio al ritmo de la música"
                             className="w-full h-52 object-cover"
                             loading="lazy"
