@@ -152,7 +152,7 @@ const Servicios = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                          src="/medescuento-renewed-web/Galeria/capacitacion.jpg" 
+                          src="/medescuento-renewed-web/Galeria/capacitacion2.jpg" 
                           alt="Capacitación con énfasis en Coaching"
                           className="w-full h-48 object-cover"
                           loading="lazy"
@@ -162,7 +162,7 @@ const Servicios = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                          src="/medescuento-renewed-web/Galeria/capacitacion2.jpg" 
+                          src="/medescuento-renewed-web/Galeria/capacitacion.jpg" 
                           alt="Capacitación empresarial"
                           className="w-full h-48 object-cover"
                           loading="lazy"
@@ -179,7 +179,7 @@ const Servicios = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                          src="/medescuento-renewed-web/Galeria/pausa1.jpg" 
+                          src="/medescuento-renewed-web/Galeria/empresa2.jpeg" 
                           alt="Pausas Activas Físicas y Mentales"
                           className="w-full h-48 object-cover"
                           loading="lazy"
@@ -189,7 +189,7 @@ const Servicios = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                          src="/medescuento-renewed-web/Galeria/empresa2.jpeg" 
+                          src="/medescuento-renewed-web/Galeria/pausa1.jpg" 
                           alt="Pausas activas en empresa"
                           className="w-full h-48 object-cover"
                           loading="lazy"
