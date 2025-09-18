@@ -34,7 +34,7 @@ const Empresa = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      {/* HERO con carrusel */}
+      {/* HERO */}
       <section className="relative h-[460px] w-full overflow-hidden">
         {images.map((img, index) => (
           <div
@@ -46,9 +46,7 @@ const Empresa = () => {
             aria-hidden={index !== current}
           />
         ))}
-
         <div className="absolute inset-0 bg-black/30" />
-
         <div className="absolute inset-0 flex flex-col items-center justify-center px-6 md:px-12 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
             NUESTRA EMPRESA
@@ -57,7 +55,6 @@ const Empresa = () => {
             12 años transformando el sistema de salud en el Quindío
           </p>
         </div>
-
         <button
           onClick={prev}
           aria-label="Anterior"
@@ -72,7 +69,6 @@ const Empresa = () => {
         >
           ›
         </button>
-
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
           {images.map((_, i) => (
             <button
@@ -87,13 +83,15 @@ const Empresa = () => {
         </div>
       </section>
 
+      {/* CONTENIDO PRINCIPAL */}
       <main className="container mx-auto px-4 py-12 relative z-10 w-full">
         <div className="max-w-6xl mx-auto space-y-12">
-          {/* Descripción */}
+
+          {/* DESCRIPCIÓN */}
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-2xl font-bold text-black">
-                <Building2 className="w-8 h-8 text-yellow-500" />
+              <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800">
+                <Building2 className={`w-8 h-8 text-yellow-400`} />
                 DESCRIPCIÓN
               </CardTitle>
             </CardHeader>
@@ -116,12 +114,12 @@ const Empresa = () => {
             </CardContent>
           </Card>
 
-          {/* Misión y Visión */}
+          {/* MISIÓN Y VISIÓN */}
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl font-bold text-black">
-                  <Target className="w-6 h-6 text-blue-400" />
+                <CardTitle className="flex items-center gap-3 text-xl font-bold text-green-800">
+                  <Target className={`w-6 h-6 text-sky-400`} />
                   MISIÓN
                 </CardTitle>
               </CardHeader>
@@ -136,8 +134,8 @@ const Empresa = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl font-bold text-black">
-                  <Eye className="w-6 h-6 text-orange-500" />
+                <CardTitle className="flex items-center gap-3 text-xl font-bold text-green-800">
+                  <Eye className={`w-6 h-6 text-orange-500`} />
                   VISIÓN
                 </CardTitle>
               </CardHeader>
@@ -151,7 +149,7 @@ const Empresa = () => {
             </Card>
           </div>
 
-          {/* Principios y Valores */}
+          {/* PRINCIPIOS Y VALORES */}
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
@@ -220,7 +218,7 @@ const Empresa = () => {
             </Card>
           </div>
 
-          {/* Promesa de Valor */}
+          {/* PROMESA DE VALOR */}
           <Card className="bg-[#43d9cb]">
             <CardHeader>
               <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800 justify-center">
