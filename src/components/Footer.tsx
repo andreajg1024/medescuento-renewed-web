@@ -80,7 +80,7 @@ const Footer = () => {
               <p>Teléfono: +57 3225426408 / +57 3002870540</p>
               <p>Horario: Lunes a Viernes</p>
               <p>8:00 AM - 11:30 AM</p>
-              <p>2:30 PM - 4:15 PM</p>
+              <p>2:00 PM - 4:15 PM</p>
             </div>
           </div>
         </div>

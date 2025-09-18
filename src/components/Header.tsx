@@ -45,7 +45,7 @@ const Header = () => {
                 <p className="text-blue-900 font-medium">Horario de atención</p>
                 <p className="text-blue-900 font-medium">Lunes a Viernes</p>
                 <p className="text-blue-900 font-medium">8:00 AM - 11:30 AM</p>
-                <p className="text-blue-900 font-medium">DE 2:30 PM - 4:15 PM</p>
+                <p className="text-blue-900 font-medium">DE 2:00 PM - 4:15 PM</p>
               </div>
             </div>
             

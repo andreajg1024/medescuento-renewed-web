@@ -76,7 +76,7 @@ const Contactanos = () => {
                 <div className="space-y-2 font-bold text-black-700">
                   <p className="font-bold">LUNES A VIERNES</p>
                   <p>8:00 AM - 11:30 AM</p>
-                  <p>2:30 PM - 4:15 PM</p>
+                  <p>2:00 PM - 4:15 PM</p>
                 </div>
               </CardContent>
             </Card>

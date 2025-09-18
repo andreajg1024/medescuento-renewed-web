@@ -5,7 +5,6 @@ import { Building2, Target, Eye, Lightbulb, Heart, Handshake } from "lucide-reac
 import { useEffect, useState } from "react";
 
 const Empresa = () => {
-  // Tus 8 imágenes
   const images = [
     "/medescuento-renewed-web/Galeria/empresa9.jpg",
     "/medescuento-renewed-web/Galeria/empresa2.jpeg",
@@ -21,11 +20,10 @@ const Empresa = () => {
 
   const [current, setCurrent] = useState(0);
 
-  // Avance automático
   useEffect(() => {
     const id = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 3000); // 3s
+    }, 3000);
     return () => clearInterval(id);
   }, [images.length]);
 
@@ -36,7 +34,7 @@ const Empresa = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      {/* HERO con carrusel (solo arriba, no pantalla completa) */}
+      {/* HERO con carrusel */}
       <section className="relative h-[460px] w-full overflow-hidden">
         {images.map((img, index) => (
           <div
@@ -49,20 +47,17 @@ const Empresa = () => {
           />
         ))}
 
-        {/* Overlay para contraste (más sutil que antes) */}
         <div className="absolute inset-0 bg-black/30" />
 
-        {/* Contenido sobre el hero */}
-<div className="absolute inset-0 flex flex-col items-center justify-center px-6 md:px-12 text-center">
-  <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
-    NUESTRA EMPRESA
-  </h1>
-  <p className="mt-3 text-lg md:text-xl text-white/90 drop-shadow">
-    12 años transformando el sistema de salud en el Quindío
-  </p>
-</div>
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-6 md:px-12 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
+            NUESTRA EMPRESA
+          </h1>
+          <p className="mt-3 text-lg md:text-xl text-white/90 drop-shadow">
+            12 años transformando el sistema de salud en el Quindío
+          </p>
+        </div>
 
-        {/* Controles */}
         <button
           onClick={prev}
           aria-label="Anterior"
@@ -78,7 +73,6 @@ const Empresa = () => {
           ›
         </button>
 
-        {/* Puntos */}
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
           {images.map((_, i) => (
             <button
@@ -93,13 +87,12 @@ const Empresa = () => {
         </div>
       </section>
 
-      {/* CONTENIDO PRINCIPAL debajo del hero */}
       <main className="container mx-auto px-4 py-12 relative z-10 w-full">
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Descripción */}
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800">
+              <CardTitle className="flex items-center gap-3 text-2xl font-bold text-yellow-500">
                 <Building2 className="w-8 h-8" />
                 DESCRIPCIÓN
               </CardTitle>
@@ -127,7 +120,7 @@ const Empresa = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl font-bold text-green-800">
+                <CardTitle className="flex items-center gap-3 text-xl font-bold text-blue-400">
                   <Target className="w-6 h-6" />
                   MISIÓN
                 </CardTitle>
@@ -143,7 +136,7 @@ const Empresa = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl font-bold text-green-800">
+                <CardTitle className="flex items-center gap-3 text-xl font-bold text-orange-500">
                   <Eye className="w-6 h-6" />
                   VISIÓN
                 </CardTitle>
