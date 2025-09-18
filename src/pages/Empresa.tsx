@@ -92,8 +92,8 @@ const Empresa = () => {
           {/* Descripción */}
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-2xl font-bold text-yellow-500">
-                <Building2 className="w-8 h-8" />
+              <CardTitle className="flex items-center gap-3 text-2xl font-bold text-black">
+                <Building2 className="w-8 h-8 text-yellow-500" />
                 DESCRIPCIÓN
               </CardTitle>
             </CardHeader>
@@ -120,8 +120,8 @@ const Empresa = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl font-bold text-blue-400">
-                  <Target className="w-6 h-6" />
+                <CardTitle className="flex items-center gap-3 text-xl font-bold text-black">
+                  <Target className="w-6 h-6 text-blue-400" />
                   MISIÓN
                 </CardTitle>
               </CardHeader>
@@ -136,8 +136,8 @@ const Empresa = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-xl font-bold text-orange-500">
-                  <Eye className="w-6 h-6" />
+                <CardTitle className="flex items-center gap-3 text-xl font-bold text-black">
+                  <Eye className="w-6 h-6 text-orange-500" />
                   VISIÓN
                 </CardTitle>
               </CardHeader>
