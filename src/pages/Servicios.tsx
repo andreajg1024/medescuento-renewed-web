@@ -179,7 +179,7 @@ const Servicios = () => {
                       <Card className="overflow-hidden">
                         <CardContent className="p-0">
                           <img 
-                          src="/medescuento-renewed-web/Galeria/empresa2.jpeg" 
+                          src="/medescuento-renewed-web/Galeria/pausa2.jpg" 
                           alt="Pausas Activas Físicas y Mentales"
                           className="w-full h-48 object-cover"
                           loading="lazy"
@@ -216,7 +216,7 @@ const Servicios = () => {
                         <Card className="overflow-hidden">
                           <CardContent className="p-0">
                             <img 
-                            src="/medescuento-renewed-web/Galeria/empresa3.jpeg" 
+                            src="/medescuento-renewed-web/Galeria/consultoria2.jpg" 
                             alt="Consultoría empresarial"
                             className="w-full h-48 object-cover"
                             loading="lazy"
