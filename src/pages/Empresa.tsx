@@ -16,6 +16,7 @@ const Empresa = () => {
     "/medescuento-renewed-web/Galeria/empresa7.jpeg",
     "/medescuento-renewed-web/Galeria/empresa8.jpeg",
     "/medescuento-renewed-web/Galeria/empresa1.jpeg",
+    "/medescuento-renewed-web/Galeria/empresa10.jpg",
   ];
 
   const [current, setCurrent] = useState(0);
