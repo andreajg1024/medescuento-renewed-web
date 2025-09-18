@@ -12,7 +12,7 @@ const ServicesSection = () => {
           <div className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg">
             <div className="flex items-center gap-3">
               <span className="text-lg font-bold">Visitantes:</span>
-              <span className="text-2xl font-bold">12,847</span>
+              <span className="text-2xl font-bold">22,024</span>
             </div>
           </div>
         </div>

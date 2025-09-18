@@ -135,7 +135,7 @@ const HeroSection = () => {
               </Card>
 
               {/* Mapa */}
-              <Card className="bg-hero-bg/80 border-accent border-2 p-3 flex flex-col justify-between text-black text-center hover:scale-105 transition-transform h-48 md:h-64">
+              <Card className="bg-hero-bg/80 border-accent border-2 p-3 flex flex-col justify-between text-white text-center hover:scale-105 transition-transform h-48 md:h-64">
                 <h3 className="text-lg font-bold">Nuestra Ubicación</h3>
                 <div className="flex-1 flex items-center justify-center">
                   <iframe
