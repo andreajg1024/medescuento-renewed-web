@@ -77,8 +77,10 @@ const Footer = () => {
             <h3 className="text-black-900 font-semibold mb-4">CONTACTO</h3>
             <div className="font-bold text-black-900 opacity-80 space-y-2">
               <p>Email: medescuentosas@gmail.com</p>
-              <p>Teléfono: +57 3225426408</p>
-              <p>Horario: Lun - Vie 8:00 AM - 4:15 PM</p>
+              <p>Teléfono: +57 3225426408 / +57 3002870540</p>
+              <p>Horario: Lunes a Viernes</p>
+              <p>8:00 AM - 11:30 AM</p>
+              <p>2:30 PM - 4:15 PM</p>
             </div>
           </div>
         </div>
