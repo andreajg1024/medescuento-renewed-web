@@ -57,7 +57,15 @@ const Bienestar = () => {
                 <Card className="overflow-hidden hover:shadow-lg transition-shadow">
                   <CardHeader className="bg-[#43d9cb]">
                     <CardTitle className="flex items-center gap-3 text-2xl font-bold text-green-800">
-                      <activity.icon className="w-8 h-8" />
+                      <activity.icon 
+                        className={`w-8 h-8 ${
+                          index === 0 ? 'text-purple-600' : 
+                          index === 1 ? 'text-pink-500' : 
+                          index === 2 ? 'text-fuchsia-600' : 
+                          index === 3 ? 'text-yellow-400' : 
+                          index === 4 ? 'text-yellow-400' : ''
+                        }`} 
+                      />
                       {activity.title}
                     </CardTitle>
                   </CardHeader>
@@ -77,7 +85,7 @@ const Bienestar = () => {
                   </CardContent>
                 </Card>
 
-                {/* Image for YOGA */}
+                {/* Image sections remain unchanged */}
                 {index === 0 && (
                   <div className="mt-8 mb-4 flex justify-center">
                     <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
@@ -104,8 +112,6 @@ const Bienestar = () => {
                     </div>
                   </div>
                 )}
-
-                {/* Image for AROMATERAPIA */}
                 {index === 1 && (
                   <div className="mt-8 mb-4 flex justify-center">
                     <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
@@ -132,8 +138,6 @@ const Bienestar = () => {
                     </div>
                   </div>
                 )}
-
-                {/* Image for RUMBATERAPIA */}
                 {index === 2 && (
                   <div className="mt-8 mb-4 flex justify-center">
                     <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
@@ -160,8 +164,6 @@ const Bienestar = () => {
                     </div>
                   </div>
                 )}
-
-                {/* Image for HORA LOCA */}
                 {index === 3 && (
                   <div className="mt-8 mb-4 flex justify-center">
                     <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
@@ -188,8 +190,6 @@ const Bienestar = () => {
                     </div>
                   </div>
                 )}
-
-                {/* Image for VIDA ACTIVA */}
                 {index === 4 && (
                   <div className="mt-8 mb-4 flex justify-center">
                     <div className="grid md:grid-cols-2 gap-4 max-w-4xl w-full">
